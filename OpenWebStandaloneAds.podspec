@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenWebStandaloneAds'
-  s.version          = '1.0.0-rc1'
+  s.version          = '1.0.0-rc2'
   s.swift_versions   = ['5.0']
   s.summary          = 'OpenWeb Standalone Ads SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb Standalone Ads into your iOS app.'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # the Pre-Compiled Framework:
   s.source          = { :git => 'https://github.com/SpotIM/openweb-ios-iau-sdk-pod.git', :tag => s.version.to_s }
-  s.ios.vendored_frameworks = 'KmmOpenWebStandaloneAds.xcframework', 'OpenWebStandaloneAds.xcframework'
+  s.ios.vendored_frameworks = 'KmmSpotimStandaloneAd.xcframework', 'SpotImStandaloneAds.xcframework'
 
   # Dependencies
   s.dependency 'AdPlayerSDK', '~> 1.10.3'
