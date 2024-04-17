@@ -1,0 +1,24 @@
+name: Cocoapods Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: macos-14
+
+    steps:
+    - uses: actions/checkout@v2
+      
+    - name: Run pod spec lint
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+      run: |
+        pod spec lint OpenWebStandaloneAds.podspec --allow-warnings
+
+    - name: Publish to CocoaPod
+      env:
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+      run: |
+        pod trunk push OpenWebStandaloneAds.podspec --allow-warnings
