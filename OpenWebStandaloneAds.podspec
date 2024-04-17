@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenWebStandaloneAds'
-  s.version          = '1.0.0'
+  s.version          = '1.0.0-rc1'
   s.swift_versions   = ['5.0']
   s.summary          = 'OpenWeb Standalone Ads SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb Standalone Ads into your iOS app.'
