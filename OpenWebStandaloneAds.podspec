@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # the Pre-Compiled Framework:
   s.source          = { :git => 'https://github.com/SpotIM/openweb-ios-iau-sdk-pod.git', :tag => s.version.to_s }
-  s.ios.vendored_frameworks = 'KmmOpenWebStandaloneAd.xcframework', 'OpenWebStandaloneAds.xcframework'
+  s.ios.vendored_frameworks = 'KmmOpenWebStandaloneAds.xcframework', 'OpenWebStandaloneAds.xcframework'
 
   # Dependencies
   s.dependency 'AdPlayerSDK', '~> 1.10.3'
