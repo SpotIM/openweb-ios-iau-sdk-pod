@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.name             = 'OpenWebIAU'
   s.version          = '1.1.0'
   s.swift_versions   = ['5.0']
-  s.summary          = 'OpenWeb Standalone Ads SDK'
-  s.description      = 'This SDK allows you to integrate OpenWeb Standalone Ads into your iOS app.'
+  s.summary          = 'OpenWeb IAU SDK'
+  s.description      = 'This SDK allows you to integrate OpenWeb IAU into your iOS app.'
   s.homepage         = "https://www.openweb.com"
   s.license          = { :type => 'CUSTOM', :file => 'LICENSE' }
   s.author           = { 'Alon Haiut' => 'alon.h@openweb.com' }
