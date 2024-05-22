@@ -15,10 +15,10 @@ jobs:
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
-        pod spec lint OpenWebStandaloneAds.podspec --allow-warnings
+        pod spec lint OpenWebIAU.podspec --allow-warnings
 
     - name: Publish to CocoaPod
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
-        pod trunk push OpenWebStandaloneAds.podspec --allow-warnings
+        pod trunk push OpenWebIAU.podspec --allow-warnings
