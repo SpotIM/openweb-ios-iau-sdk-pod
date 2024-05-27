@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SpotImStandaloneAds
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SpotImStandaloneAds
 import AdPlayerSDK
 import AppHarbrSDK
 import Foundation
@@ -10,6 +9,7 @@ import KmmSpotimStandaloneAd
 import NimbusRenderStaticKit
 import OpenWrapHandlerDFP
 import OpenWrapSDK
+@_exported import SpotImStandaloneAds
 import Swift
 import UIKit
 import _Concurrency
@@ -178,6 +178,8 @@ public enum RxProfile {
 public enum SpotImAdsDebug {
   public static func setGADMobileAds(testDeviceIdentifiers: [Swift.String])
   public static func setOpenWrap(logEnabled: Swift.Bool)
+  public static func isNimbusInstalledCorrectly() -> Swift.Bool
+  public static func observeAnalyticsEvents(onEvent: @escaping (Swift.String, Swift.String) -> Swift.Void)
 }
 extension SpotImStandaloneAds.SpotImAdVideoEventType : Swift.Equatable {}
 extension SpotImStandaloneAds.SpotImAdVideoEventType : Swift.Hashable {}

@@ -27,12 +27,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SpotImStandaloneAds.SpotImAdPlacementDelegate?",
+                "printedName": "(any SpotImStandaloneAds.SpotImAdPlacementDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SpotImAdPlacementDelegate",
-                    "printedName": "SpotImStandaloneAds.SpotImAdPlacementDelegate",
+                    "printedName": "any SpotImStandaloneAds.SpotImAdPlacementDelegate",
                     "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP"
                   }
                 ],
@@ -53,12 +53,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SpotImStandaloneAds.SpotImAdPlacementDelegate?",
+                    "printedName": "(any SpotImStandaloneAds.SpotImAdPlacementDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SpotImAdPlacementDelegate",
-                        "printedName": "SpotImStandaloneAds.SpotImAdPlacementDelegate",
+                        "printedName": "any SpotImStandaloneAds.SpotImAdPlacementDelegate",
                         "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP"
                       }
                     ],
@@ -88,12 +88,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SpotImStandaloneAds.SpotImAdPlacementDelegate?",
+                    "printedName": "(any SpotImStandaloneAds.SpotImAdPlacementDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SpotImAdPlacementDelegate",
-                        "printedName": "SpotImStandaloneAds.SpotImAdPlacementDelegate",
+                        "printedName": "any SpotImStandaloneAds.SpotImAdPlacementDelegate",
                         "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP"
                       }
                     ],
@@ -142,12 +142,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "SpotImStandaloneAds.SizeDelegate?",
+                "printedName": "(any SpotImStandaloneAds.SizeDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SizeDelegate",
-                    "printedName": "SpotImStandaloneAds.SizeDelegate",
+                    "printedName": "any SpotImStandaloneAds.SizeDelegate",
                     "usr": "s:19SpotImStandaloneAds12SizeDelegateP"
                   }
                 ],
@@ -168,12 +168,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SpotImStandaloneAds.SizeDelegate?",
+                    "printedName": "(any SpotImStandaloneAds.SizeDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SizeDelegate",
-                        "printedName": "SpotImStandaloneAds.SizeDelegate",
+                        "printedName": "any SpotImStandaloneAds.SizeDelegate",
                         "usr": "s:19SpotImStandaloneAds12SizeDelegateP"
                       }
                     ],
@@ -203,12 +203,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "SpotImStandaloneAds.SizeDelegate?",
+                    "printedName": "(any SpotImStandaloneAds.SizeDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SizeDelegate",
-                        "printedName": "SpotImStandaloneAds.SizeDelegate",
+                        "printedName": "any SpotImStandaloneAds.SizeDelegate",
                         "usr": "s:19SpotImStandaloneAds12SizeDelegateP"
                       }
                     ],
@@ -363,7 +363,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SpotImAdPlacement",
-                "printedName": "SpotImStandaloneAds.SpotImAdPlacement",
+                "printedName": "any SpotImStandaloneAds.SpotImAdPlacement",
                 "usr": "s:19SpotImStandaloneAds0aB11AdPlacementP"
               },
               {
@@ -396,7 +396,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SpotImAdPlacement",
-                "printedName": "SpotImStandaloneAds.SpotImAdPlacement",
+                "printedName": "any SpotImStandaloneAds.SpotImAdPlacement",
                 "usr": "s:19SpotImStandaloneAds0aB11AdPlacementP"
               },
               {
@@ -630,7 +630,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ProtocolComposition",
-                "printedName": "UIKit.UIViewController & SpotImStandaloneAds.SpotImAdPlacement"
+                "printedName": "any UIKit.UIViewController & SpotImStandaloneAds.SpotImAdPlacement"
               },
               {
                 "kind": "TypeNominal",
@@ -4218,8 +4218,7 @@
         "declKind": "Import",
         "moduleName": "SpotImStandaloneAds",
         "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
+          "ImplementationOnly"
         ]
       },
       {
@@ -4508,6 +4507,13 @@
         "moduleName": "SpotImStandaloneAds"
       },
       {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SpotImAdsDebug",
         "printedName": "SpotImAdsDebug",
@@ -4573,6 +4579,80 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isNimbusInstalledCorrectly",
+            "printedName": "isNimbusInstalledCorrectly()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0abD5DebugO26isNimbusInstalledCorrectlySbyFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD5DebugO26isNimbusInstalledCorrectlySbyFZ",
+            "moduleName": "SpotImStandaloneAds",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeAnalyticsEvents",
+            "printedName": "observeAnalyticsEvents(onEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0abD5DebugO22observeAnalyticsEvents7onEventyySS_SStc_tFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD5DebugO22observeAnalyticsEvents7onEventyySS_SStc_tFZ",
+            "moduleName": "SpotImStandaloneAds",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -4621,8 +4701,7 @@
         "declKind": "Import",
         "moduleName": "SpotImStandaloneAds",
         "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
+          "ImplementationOnly"
         ]
       },
       {
@@ -4789,395 +4868,10 @@
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1325,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1512,
-      "length": 24,
-      "value": "\"Attach tagId: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1535,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2364,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2961,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3211,
-      "length": 30,
-      "value": "\"assign screen ID \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3240,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3537,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3584,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3723,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3907,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4166,
-      "length": 12,
-      "value": "\"📗 Video\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4309,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4389,
-      "length": 14,
-      "value": "\"📘 Display\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4622,
-      "length": 26,
-      "value": "\"Display content is empty\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4891,
-      "length": 12,
-      "value": "\"📓 Empty\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4932,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5468,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6389,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6534,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6846,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 6917,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7022,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7137,
-      "length": 39,
-      "value": "\"PlacementViewController: wrapperOnMpv\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 7282,
-      "length": 46,
-      "value": "\"PlacementViewController: wrapperOnMpvDelayed\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 23,
       "value": "\"SpotImStandaloneAds.PlacementViewController\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8114,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/ExposureTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 810,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/ExposureTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1335,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/ExposureTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1378,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/ExposureTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1420,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/ExposureTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1738,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/ExposureTracker.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1742,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/UIView+Extensions.swift",
-      "kind": "Array",
-      "offset": 484,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/KMGeoEdgeInitializerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 662,
-      "length": 62,
-      "value": "\"AppHarbr failed to initialize: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/KMGeoEdgeInitializerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 723,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/KMGeoEdgeInitializerImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 852,
-      "length": 36,
-      "value": "\"AppHarbr initialized successfully!\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/UIView+Exposure.swift",
-      "kind": "IntegerLiteral",
-      "offset": 366,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/UIView+Exposure.swift",
-      "kind": "IntegerLiteral",
-      "offset": 510,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/UIView+Exposure.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1913,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/UIView+Exposure.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1987,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 579,
-      "length": 6,
-      "value": "\"slot\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 587,
-      "length": 77,
-      "value": "\"row\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 622,
-      "length": 1,
-      "value": "\"-column\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 663,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 678,
-      "length": 8,
-      "value": "\"source\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 688,
-      "length": 9,
-      "value": "\"sdk_iau\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 711,
-      "length": 15,
-      "value": "\"iau_sdkSpotId\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 760,
-      "length": 19,
-      "value": "\"Video_floor_price\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/ScreenIDManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 656,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/ScreenIDManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 757,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/ScreenIDManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 993,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/ScreenIDManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1050,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/ScreenIDManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1146,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/ScreenIDManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1203,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/ScreenIDManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1280,
-      "length": 39,
-      "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/PlacementProviderImpl.swift",
@@ -5185,48 +4879,6 @@
       "offset": 403,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/PlacementProviderImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 795,
-      "length": 32,
-      "value": "\"PlacementStorage storage.count\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 528,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 534,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/Logger.swift",
-      "kind": "StringLiteral",
-      "offset": 556,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 355,
-      "length": 16,
-      "value": "\"Video: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 370,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
@@ -5238,20 +4890,6 @@
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
       "kind": "StringLiteral",
-      "offset": 678,
-      "length": 28,
-      "value": "\"VideoProgress: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 705,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
       "offset": 406,
       "length": 25,
       "value": "\"SpotImStandaloneAds.ContentVideoProgressEvent\""
@@ -5259,37 +4897,9 @@
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
       "kind": "StringLiteral",
-      "offset": 972,
-      "length": 24,
-      "value": "\"VideoError: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 995,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
       "offset": 741,
       "length": 23,
       "value": "\"SpotImStandaloneAds.SpotImAdVideoErrorEvent\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1254,
-      "length": 16,
-      "value": "\"Video: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1269,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
@@ -5363,76 +4973,6 @@
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1682,
-      "length": 21,
-      "value": "\"videoAdServerCalled\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1745,
-      "length": 20,
-      "value": "\"viewableImpression\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1798,
-      "length": 11,
-      "value": "\"inventory\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1843,
-      "length": 8,
-      "value": "\"loaded\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1887,
-      "length": 14,
-      "value": "\"clickThrough\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1931,
-      "length": 20,
-      "value": "\"viewableImpression\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1981,
-      "length": 8,
-      "value": "\"paused\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2021,
-      "length": 10,
-      "value": "\"progress\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2060,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2098,
-      "length": 9,
-      "value": "\"generic\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1391,
       "length": 18,
@@ -5524,41 +5064,6 @@
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2415,
-      "length": 9,
-      "value": "\"started\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2461,
-      "length": 15,
-      "value": "\"firstQuartile\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2508,
-      "length": 10,
-      "value": "\"midpoint\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2555,
-      "length": 15,
-      "value": "\"thirdQuartile\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2602,
-      "length": 10,
-      "value": "\"complete\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2225,
       "length": 13,
@@ -5588,303 +5093,30 @@
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 808,
+      "offset": 848,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
       "kind": "StringLiteral",
-      "offset": 2611,
-      "length": 25,
-      "value": "\"NimbusDisplayAd: loadAd\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2957,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2970,
-      "length": 3,
-      "value": "250"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3182,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 228,
+      "offset": 268,
       "length": 15,
       "value": "\"SpotImStandaloneAds.NimbusDisplayAd\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 4475,
-      "length": 43,
-      "value": "\"NimbusDisplayAd: didCompleteNimbusRequest\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4580,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 4892,
-      "length": 23,
-      "value": "\"🛑 NimbusDisplayAd:\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5528,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5648,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 5902,
-      "length": 26,
-      "value": "\"NimbusDisplayAd: dispose\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6121,
-      "length": 53,
-      "value": "\"🛑 NimbusDisplayAd: AppHarbrDelegate.didAdBlocked\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6176,
-      "length": 47,
-      "value": "\"unitId: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6197,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6200,
-      "length": 8,
-      "value": "\" adForamt: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6222,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6632,
-      "length": 188,
-      "value": "\"NimbusDisplayAd: AppHarbrDelegate.didAdIncident: creativeId=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6709,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6712,
-      "length": 6,
-      "value": "\" unitId=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6732,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6735,
-      "length": 8,
-      "value": "\" adForamt=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6756,
-      "length": 12,
-      "value": "\" blockReasons=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6785,
-      "length": 13,
-      "value": "\" reportReasons = \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6818,
-      "length": 1,
-      "value": "\"}\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7009,
-      "length": 39,
-      "value": "\"NimbusDisplayAd: NimbusEvent \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7047,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7185,
-      "length": 65,
-      "value": "\"🛑 NimbusDisplayAd: NimbusError \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7249,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7624,
-      "length": 46,
-      "value": "\"NimbusDisplayAd: GAD: bannerViewDidReceiveAd\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7878,
-      "length": 82,
-      "value": "\"NimbusDisplayAd: GAD: didFailToReceiveAdWithError: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7959,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 8090,
-      "length": 53,
-      "value": "\"NimbusDisplayAd: GAD: bannerViewDidRecordImpression\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8233,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8237,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 8400,
-      "length": 48,
-      "value": "\"NimbusDisplayAd: GAD: bannerViewDidRecordClick\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 8546,
-      "length": 52,
-      "value": "\"NimbusDisplayAd: GAD:  bannerViewWillPresentScreen\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 8696,
-      "length": 51,
-      "value": "\"NimbusDisplayAd: GAD: bannerViewWillDismissScreen\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 8844,
-      "length": 50,
-      "value": "\"NimbusDisplayAd: GAD: bannerViewDidDismissScreen\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 9076,
-      "length": 50,
-      "value": "\"NimbusDisplayAd: GAD: didReceiveAppEvent \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 9125,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Generated\/Versions.swift",
       "kind": "StringLiteral",
       "offset": 143,
       "length": 7,
-      "value": "\"1.0.2\""
+      "value": "\"1.1.0\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Generated\/Versions.swift",
       "kind": "IntegerLiteral",
       "offset": 172,
       "length": 2,
-      "value": "42"
+      "value": "47"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
@@ -5913,41 +5145,6 @@
       "offset": 211,
       "length": 5,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
-      "kind": "StringLiteral",
-      "offset": 389,
-      "length": 11,
-      "value": "\"haveVideo\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
-      "kind": "StringLiteral",
-      "offset": 435,
-      "length": 13,
-      "value": "\"haveDisplay\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
-      "kind": "StringLiteral",
-      "offset": 477,
-      "length": 7,
-      "value": "\"empty\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 362,
-      "length": 18,
-      "value": "\"Display: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 379,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
@@ -5959,37 +5156,9 @@
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
       "kind": "StringLiteral",
-      "offset": 650,
-      "length": 26,
-      "value": "\"DisplayError: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 675,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
       "offset": 415,
       "length": 25,
       "value": "\"SpotImStandaloneAds.SpotImAdDisplayErrorEvent\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 938,
-      "length": 18,
-      "value": "\"Display: \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 955,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
@@ -6049,62 +5218,6 @@
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1346,
-      "length": 11,
-      "value": "\"inventory\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1393,
-      "length": 14,
-      "value": "\"sourceLoaded\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1441,
-      "length": 12,
-      "value": "\"impression\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1495,
-      "length": 20,
-      "value": "\"viewableImpression\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1551,
-      "length": 14,
-      "value": "\"clickThrough\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1595,
-      "length": 8,
-      "value": "\"closed\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1632,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1670,
-      "length": 9,
-      "value": "\"generic\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1069,
       "length": 12,
@@ -6153,214 +5266,11 @@
       "value": "7"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 434,
-      "length": 2,
-      "value": "90"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 505,
-      "length": 3,
-      "value": "250"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 534,
-      "length": 3,
-      "value": "728"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 659,
-      "length": 3,
-      "value": "768"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 671,
-      "length": 3,
-      "value": "768"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 766,
-      "length": 3,
-      "value": "480"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 778,
-      "length": 3,
-      "value": "320"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 860,
-      "length": 3,
-      "value": "320"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 872,
-      "length": 3,
-      "value": "480"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusSizeToFormatMapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 954,
-      "length": 3,
-      "value": "600"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 685,
-      "length": 30,
-      "value": "\"playerViewRetentionTimeMilli\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "IntegerLiteral",
-      "offset": 717,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 35,
-      "value": "\"forcedPauseWaterFallOnLeaveScreen\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "BooleanLiteral",
-      "offset": 777,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 858,
-      "length": 19,
-      "value": "\"spotImVersionCode\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 915,
-      "length": 19,
-      "value": "\"spotImVersionName\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 1342,
-      "length": 26,
-      "value": "\"tagIds must not be empty\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/ADPlayerProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 3628,
-      "length": 45,
-      "value": "\"Combine option is not available for this OS\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdsSourceImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1180,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdsSourceImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1210,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdsSourceImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1236,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdsSourceImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1263,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/DisplayAdsSourceImpl.swift",
-      "kind": "Array",
-      "offset": 1293,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 412,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
       "kind": "IntegerLiteral",
       "offset": 789,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1574,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1587,
-      "length": 3,
-      "value": "250"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2783,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2917,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3001,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
@@ -6370,151 +5280,18 @@
       "value": "\"SpotImStandaloneAds.OpenWrapDisplayAd\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4127,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4877,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4881,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 4990,
-      "length": 52,
-      "value": "\"PubmaticDisplayAd: POBBannerViewDelegate AD loaded\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 5165,
-      "length": 6,
-      "value": "\"🛑\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 5821,
-      "length": 52,
-      "value": "\"onBidReceived: bid = \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 5872,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6378,
-      "length": 53,
-      "value": "\"AppHarbrDelegate.onAdBlocked: reasons = \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6429,
-      "length": 1,
-      "value": "\"}\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6848,
-      "length": 190,
-      "value": "\"PubmaticDisplayAd: AppHarbrDelegate.didAdIncident: creativeId=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6927,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6930,
-      "length": 6,
-      "value": "\" unitId=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6950,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6953,
-      "length": 8,
-      "value": "\" adForamt=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 6974,
-      "length": 12,
-      "value": "\" blockReasons=\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7003,
-      "length": 13,
-      "value": "\" reportReasons = \""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
-      "kind": "StringLiteral",
-      "offset": 7036,
-      "length": 1,
-      "value": "\"}\""
-    },
-    {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusInitializer.swift",
       "kind": "BooleanLiteral",
-      "offset": 347,
+      "offset": 387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusInitializer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 687,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/DefaultSizeDelegate.swift",
-      "kind": "IntegerLiteral",
-      "offset": 356,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/DefaultSizeDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 391,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 531,
+      "value": "\"SpotImStandaloneAds: NimbusSDK setup is invalid!\nPlease ensure NimbusSDK 'BUILD_LIBRARY_FOR_DISTRIBUTION' is set to 'YES'\nIf you're using Cocoa Pods then you might want to add it in the post-install script:\n\npost_install do |installer|\n  installer.pods_project.targets.each do |target|\n    target.build_configurations.each do |config|\n      if target.name == 'NimbusSDK'\n        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'\n      end\n    end\n  end\nend\n\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/DIContainer.swift",
@@ -6522,34 +5299,6 @@
       "offset": 503,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/DIContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 590,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/DIContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 598,
-      "length": 12,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/DIContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 704,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/DIContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 712,
-      "length": 14,
-      "value": "\"\""
     }
   ]
 }
