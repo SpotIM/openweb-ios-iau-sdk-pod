@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SpotImStandaloneAds
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SpotImStandaloneAds
 import AdPlayerSDK
 import AppHarbrSDK
 import Foundation
@@ -32,7 +32,7 @@ public protocol SpotImAdPlacementDelegate : AnyObject {
   func spotImAdPlacement(_ placement: any SpotImStandaloneAds.SpotImAdPlacement, onContentState state: SpotImStandaloneAds.SpotImAdState)
 }
 public struct SpotImAds {
-  public static func initSDK(spotId: Swift.String, storeURL: Foundation.URL, useSentry: Swift.Bool = false, rxProfile: SpotImStandaloneAds.RxProfile = .auto)
+  public static func initSDK(spotId: Swift.String, storeURL: Foundation.URL, useSentry: Swift.Bool = false)
   public static func setGdprRequired(required: Swift.Bool)
   public static func setGdprConsentString(consent: Swift.String)
   public static func preload(row: Swift.Int, column: Swift.Int, analyticsInfo: SpotImStandaloneAds.AnalyticsInfo?)
@@ -164,17 +164,6 @@ extension SpotImStandaloneAds.SpotImAdState : Swift.CustomStringConvertible {
     get
   }
 }
-public enum RxProfile {
-  case auto
-  case rxSwift
-  @available(iOS 13.0, *)
-  case combine
-  public static func == (a: SpotImStandaloneAds.RxProfile, b: SpotImStandaloneAds.RxProfile) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public enum SpotImAdsDebug {
   public static func setGADMobileAds(testDeviceIdentifiers: [Swift.String])
   public static func setOpenWrap(logEnabled: Swift.Bool)
@@ -193,5 +182,3 @@ extension SpotImStandaloneAds.SpotImAdState : Swift.RawRepresentable {}
 extension SpotImStandaloneAds.SpotImAdDisplayEventType : Swift.Equatable {}
 extension SpotImStandaloneAds.SpotImAdDisplayEventType : Swift.Hashable {}
 extension SpotImStandaloneAds.SpotImAdDisplayEventType : Swift.RawRepresentable {}
-extension SpotImStandaloneAds.RxProfile : Swift.Equatable {}
-extension SpotImStandaloneAds.RxProfile : Swift.Hashable {}
