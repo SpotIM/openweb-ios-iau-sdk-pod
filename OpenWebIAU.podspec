@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenWebIAU'
-  s.version          = '1.1.0-rc1'
+  s.version          = '1.1.0'
   s.swift_versions   = ['5.0']
   s.summary          = 'OpenWeb IAU SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb IAU into your iOS app.'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'CUSTOM', :file => 'LICENSE' }
   s.author           = { 'Alon Haiut' => 'alon.h@openweb.com' }
   s.platform         = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
 
   s.static_framework = true # needed because of Google-Mobile-Ads-SDK. Fixes the error: "target has transitive dependencies that include statically linked binaries"
 
