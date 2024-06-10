@@ -4861,14 +4861,14 @@
       "kind": "StringLiteral",
       "offset": 143,
       "length": 7,
-      "value": "\"1.1.0\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Generated\/Versions.swift",
       "kind": "IntegerLiteral",
       "offset": 172,
       "length": 2,
-      "value": "47"
+      "value": "48"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",

@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YN2IvC+aLuOnCg08TLWibNlhV60=
+		Wm9GbbGeXpxwmrPZzbQrSlnePY4=
 		</data>
 		<key>Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		au+naTcwGcQKOERhlcLxTQWcoYE=
+		iV0cBtD8bqRRlpIHVDK/DKxhgZg=
 		</data>
 		<key>Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		QElwM592d5jWjqp04D2ifzzmGXw=
+		FJpYgo7DoqGyueLcGeiLbUAkeek=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			au+naTcwGcQKOERhlcLxTQWcoYE=
+			iV0cBtD8bqRRlpIHVDK/DKxhgZg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xrmj4MJ0D0D3CqVYGrsuXD1PiiYof7WH6vcfAqdV/gs=
+			4dXDhwMjcOXYEvBCh96cv/9pbSD1NaKGlg4mkHMjWPc=
 			</data>
 		</dict>
 		<key>Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QElwM592d5jWjqp04D2ifzzmGXw=
+			FJpYgo7DoqGyueLcGeiLbUAkeek=
 			</data>
 			<key>hash2</key>
 			<data>
-			30mvsqLzKjzNoqxzQNrEDRzh6ShmuHmBhV+DzujRAk8=
+			FMuGYGb05pajVggyVsJOJLcAcgYIMAPQN7n5MbAokgY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
