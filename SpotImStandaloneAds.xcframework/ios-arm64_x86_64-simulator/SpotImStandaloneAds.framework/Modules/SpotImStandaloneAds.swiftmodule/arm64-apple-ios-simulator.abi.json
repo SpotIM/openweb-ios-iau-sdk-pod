@@ -6,8 +6,343 @@
     "children": [
       {
         "kind": "Import",
+        "name": "AdPlayerSDK",
+        "printedName": "AdPlayerSDK",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AppHarbrSDK",
+        "printedName": "AppHarbrSDK",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenWrapSDK",
+        "printedName": "OpenWrapSDK",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpotImAds",
+        "printedName": "SpotImAds",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initSDK",
+            "printedName": "initSDK(spotId:storeURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0abD0V7initSDK6spotId8storeURLySS_10Foundation0J0VtFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD0V7initSDK6spotId8storeURLySS_10Foundation0J0VtFZ",
+            "moduleName": "SpotImStandaloneAds",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makePlacement",
+            "printedName": "makePlacement(row:column:analyticsInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "any UIKit.UIView & SpotImStandaloneAds.SpotImAdPlacement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SpotImStandaloneAds.AnalyticsInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsInfo",
+                    "printedName": "SpotImStandaloneAds.AnalyticsInfo",
+                    "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0abD0V13makePlacement3row6column13analyticsInfoAA0ab2AdF0_So6UIViewCXcSi_SiAA09AnalyticsJ0VSgtFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD0V13makePlacement3row6column13analyticsInfoAA0ab2AdF0_So6UIViewCXcSi_SiAA09AnalyticsJ0VSgtFZ",
+            "moduleName": "SpotImStandaloneAds",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preload",
+            "printedName": "preload(row:column:analyticsInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SpotImStandaloneAds.AnalyticsInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnalyticsInfo",
+                    "printedName": "SpotImStandaloneAds.AnalyticsInfo",
+                    "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0abD0V7preload3row6column13analyticsInfoySi_SiAA09AnalyticsI0VSgtFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD0V7preload3row6column13analyticsInfoySi_SiAA09AnalyticsI0VSgtFZ",
+            "moduleName": "SpotImStandaloneAds",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGdprRequired",
+            "printedName": "setGdprRequired(required:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0abD0V15setGdprRequired8requiredySb_tFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD0V15setGdprRequired8requiredySb_tFZ",
+            "moduleName": "SpotImStandaloneAds",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGdprConsentString",
+            "printedName": "setGdprConsentString(consent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0abD0V20setGdprConsentString7consentySS_tFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD0V20setGdprConsentString7consentySS_tFZ",
+            "moduleName": "SpotImStandaloneAds",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19SpotImStandaloneAds0abD0V",
+        "mangledName": "$s19SpotImStandaloneAds0abD0V",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdPlayerSDK",
+        "printedName": "AdPlayerSDK",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppHarbrSDK",
+        "printedName": "AppHarbrSDK",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SpotImStandaloneAds",
         "declAttributes": [
@@ -303,674 +638,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "SizeDelegate",
-        "printedName": "SizeDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "adPlacementHeightWillChange",
-            "printedName": "adPlacementHeightWillChange(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds12SizeDelegateP27adPlacementHeightWillChange2toy14CoreFoundation7CGFloatV_tF",
-            "mangledName": "$s19SpotImStandaloneAds12SizeDelegateP27adPlacementHeightWillChange2toy12CoreGraphics7CGFloatV_tF",
-            "moduleName": "SpotImStandaloneAds",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpotImStandaloneAds.SizeDelegate>",
-            "sugared_genericSig": "<Self where Self : SpotImStandaloneAds.SizeDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:19SpotImStandaloneAds12SizeDelegateP",
-        "mangledName": "$s19SpotImStandaloneAds12SizeDelegateP",
-        "moduleName": "SpotImStandaloneAds",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SpotImAdPlacementDelegate",
-        "printedName": "SpotImAdPlacementDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "spotImAdPlacement",
-            "printedName": "spotImAdPlacement(_:onContentEvent:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SpotImAdPlacement",
-                "printedName": "any SpotImStandaloneAds.SpotImAdPlacement",
-                "usr": "s:19SpotImStandaloneAds0aB11AdPlacementP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SpotImAdEvent",
-                "printedName": "SpotImStandaloneAds.SpotImAdEvent",
-                "usr": "c:@M@SpotImStandaloneAds@objc(cs)SpotImAdEvent"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentEventyAA0abeF0_p_AA0abeK0CtF",
-            "mangledName": "$s19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentEventyAA0abeF0_p_AA0abeK0CtF",
-            "moduleName": "SpotImStandaloneAds",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
-            "sugared_genericSig": "<Self where Self : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "spotImAdPlacement",
-            "printedName": "spotImAdPlacement(_:onContentState:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SpotImAdPlacement",
-                "printedName": "any SpotImStandaloneAds.SpotImAdPlacement",
-                "usr": "s:19SpotImStandaloneAds0aB11AdPlacementP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SpotImAdState",
-                "printedName": "SpotImStandaloneAds.SpotImAdState",
-                "usr": "c:@M@SpotImStandaloneAds@E@SpotImAdState"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentStateyAA0abeF0_p_AA0abeK0OtF",
-            "mangledName": "$s19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentStateyAA0abeF0_p_AA0abeK0OtF",
-            "moduleName": "SpotImStandaloneAds",
-            "genericSig": "<τ_0_0 where τ_0_0 : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
-            "sugared_genericSig": "<Self where Self : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP",
-        "mangledName": "$s19SpotImStandaloneAds0aB19AdPlacementDelegateP",
-        "moduleName": "SpotImStandaloneAds",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "AppHarbrSDK",
-        "printedName": "AppHarbrSDK",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "OpenWrapSDK",
-        "printedName": "OpenWrapSDK",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SpotImAds",
-        "printedName": "SpotImAds",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "initSDK",
-            "printedName": "initSDK(spotId:storeURL:useSentry:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD0V7initSDK6spotId8storeURL9useSentryySS_10Foundation0J0VSbtFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD0V7initSDK6spotId8storeURL9useSentryySS_10Foundation0J0VSbtFZ",
-            "moduleName": "SpotImStandaloneAds",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setGdprRequired",
-            "printedName": "setGdprRequired(required:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD0V15setGdprRequired8requiredySb_tFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD0V15setGdprRequired8requiredySb_tFZ",
-            "moduleName": "SpotImStandaloneAds",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setGdprConsentString",
-            "printedName": "setGdprConsentString(consent:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD0V20setGdprConsentString7consentySS_tFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD0V20setGdprConsentString7consentySS_tFZ",
-            "moduleName": "SpotImStandaloneAds",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "preload",
-            "printedName": "preload(row:column:analyticsInfo:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SpotImStandaloneAds.AnalyticsInfo?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnalyticsInfo",
-                    "printedName": "SpotImStandaloneAds.AnalyticsInfo",
-                    "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD0V7preload3row6column13analyticsInfoySi_SiAA09AnalyticsI0VSgtFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD0V7preload3row6column13analyticsInfoySi_SiAA09AnalyticsI0VSgtFZ",
-            "moduleName": "SpotImStandaloneAds",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "makePlacement",
-            "printedName": "makePlacement(row:column:analyticsInfo:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "any UIKit.UIViewController & SpotImStandaloneAds.SpotImAdPlacement"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SpotImStandaloneAds.AnalyticsInfo?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnalyticsInfo",
-                    "printedName": "SpotImStandaloneAds.AnalyticsInfo",
-                    "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD0V13makePlacement3row6column13analyticsInfoAA0ab2AdF0_So16UIViewControllerCXcSi_SiAA09AnalyticsJ0VSgtFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD0V13makePlacement3row6column13analyticsInfoAA0ab2AdF0_So16UIViewControllerCXcSi_SiAA09AnalyticsJ0VSgtFZ",
-            "moduleName": "SpotImStandaloneAds",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19SpotImStandaloneAds0abD0V",
-        "mangledName": "$s19SpotImStandaloneAds0abD0V",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AnalyticsInfo",
-        "printedName": "AnalyticsInfo",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "url",
-            "printedName": "url",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV3urlSSvp",
-            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV3urlSSvp",
-            "moduleName": "SpotImStandaloneAds",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV3urlSSvg",
-                "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV3urlSSvg",
-                "moduleName": "SpotImStandaloneAds",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "postId",
-            "printedName": "postId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvp",
-            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvp",
-            "moduleName": "SpotImStandaloneAds",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvg",
-                "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvg",
-                "moduleName": "SpotImStandaloneAds",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "userId",
-            "printedName": "userId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvp",
-            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvp",
-            "moduleName": "SpotImStandaloneAds",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvg",
-                "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvg",
-                "moduleName": "SpotImStandaloneAds",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(url:postId:userId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AnalyticsInfo",
-                "printedName": "SpotImStandaloneAds.AnalyticsInfo",
-                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV3url6postId04userI0ACSS_S2Stcfc",
-            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV3url6postId04userI0ACSS_S2Stcfc",
-            "moduleName": "SpotImStandaloneAds",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV",
-        "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AppHarbrSDK",
-        "printedName": "AppHarbrSDK",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -1096,6 +763,37 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
       },
       {
         "kind": "Import",
@@ -2813,16 +2511,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "SpotImStandaloneAds",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Var",
         "name": "sdkVersionName",
         "printedName": "sdkVersionName",
@@ -4243,6 +3931,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -4296,11 +4001,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD5DebugO012setGADMobileD021testDeviceIdentifiersySaySSG_tFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD5DebugO012setGADMobileD021testDeviceIdentifiersySaySSG_tFZ",
+            "usr": "s:19SpotImStandaloneAds0abD5DebugC012setGADMobileD021testDeviceIdentifiersySaySSG_tFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD5DebugC012setGADMobileD021testDeviceIdentifiersySaySSG_tFZ",
             "moduleName": "SpotImStandaloneAds",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -4323,11 +4029,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD5DebugO11setOpenWrap10logEnabledySb_tFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD5DebugO11setOpenWrap10logEnabledySb_tFZ",
+            "usr": "s:19SpotImStandaloneAds0abD5DebugC11setOpenWrap10logEnabledySb_tFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD5DebugC11setOpenWrap10logEnabledySb_tFZ",
             "moduleName": "SpotImStandaloneAds",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -4345,11 +4052,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD5DebugO26isNimbusInstalledCorrectlySbyFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD5DebugO26isNimbusInstalledCorrectlySbyFZ",
+            "usr": "s:19SpotImStandaloneAds0abD5DebugC26isNimbusInstalledCorrectlySbyFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD5DebugC26isNimbusInstalledCorrectlySbyFZ",
             "moduleName": "SpotImStandaloneAds",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -4397,23 +4105,25 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19SpotImStandaloneAds0abD5DebugO22observeAnalyticsEvents7onEventyySS_SStc_tFZ",
-            "mangledName": "$s19SpotImStandaloneAds0abD5DebugO22observeAnalyticsEvents7onEventyySS_SStc_tFZ",
+            "usr": "s:19SpotImStandaloneAds0abD5DebugC22observeAnalyticsEvents7onEventyySS_SStc_tFZ",
+            "mangledName": "$s19SpotImStandaloneAds0abD5DebugC22observeAnalyticsEvents7onEventyySS_SStc_tFZ",
             "moduleName": "SpotImStandaloneAds",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Enum",
-        "usr": "s:19SpotImStandaloneAds0abD5DebugO",
-        "mangledName": "$s19SpotImStandaloneAds0abD5DebugO",
+        "declKind": "Class",
+        "usr": "s:19SpotImStandaloneAds0abD5DebugC",
+        "mangledName": "$s19SpotImStandaloneAds0abD5DebugC",
         "moduleName": "SpotImStandaloneAds",
         "declAttributes": [
           "AccessControl"
-        ]
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -4445,6 +4155,209 @@
         "printedName": "OpenWrapHandlerDFP",
         "declKind": "Import",
         "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnalyticsInfo",
+        "printedName": "AnalyticsInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV3urlSSvp",
+            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV3urlSSvp",
+            "moduleName": "SpotImStandaloneAds",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV3urlSSvg",
+                "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV3urlSSvg",
+                "moduleName": "SpotImStandaloneAds",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postId",
+            "printedName": "postId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvp",
+            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvp",
+            "moduleName": "SpotImStandaloneAds",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvg",
+                "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6postIdSSvg",
+                "moduleName": "SpotImStandaloneAds",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvp",
+            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvp",
+            "moduleName": "SpotImStandaloneAds",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvg",
+                "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV6userIdSSvg",
+                "moduleName": "SpotImStandaloneAds",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:postId:userId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnalyticsInfo",
+                "printedName": "SpotImStandaloneAds.AnalyticsInfo",
+                "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV3url6postId04userI0ACSS_S2Stcfc",
+            "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV3url6postId04userI0ACSS_S2Stcfc",
+            "moduleName": "SpotImStandaloneAds",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19SpotImStandaloneAds13AnalyticsInfoV",
+        "mangledName": "$s19SpotImStandaloneAds13AnalyticsInfoV",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -4499,6 +4412,100 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SizeDelegate",
+        "printedName": "SizeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "adPlacementHeightWillChange",
+            "printedName": "adPlacementHeightWillChange(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds12SizeDelegateP27adPlacementHeightWillChange2toy14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$s19SpotImStandaloneAds12SizeDelegateP27adPlacementHeightWillChange2toy12CoreGraphics7CGFloatV_tF",
+            "moduleName": "SpotImStandaloneAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpotImStandaloneAds.SizeDelegate>",
+            "sugared_genericSig": "<Self where Self : SpotImStandaloneAds.SizeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19SpotImStandaloneAds12SizeDelegateP",
+        "mangledName": "$s19SpotImStandaloneAds12SizeDelegateP",
+        "moduleName": "SpotImStandaloneAds",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KmmSpotimStandaloneAd",
+        "printedName": "KmmSpotimStandaloneAd",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
+        "name": "AdPlayerSDK",
+        "printedName": "AdPlayerSDK",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds"
+      },
+      {
+        "kind": "Import",
         "name": "KmmSpotimStandaloneAd",
         "printedName": "KmmSpotimStandaloneAd",
         "declKind": "Import",
@@ -4525,15 +4532,107 @@
         "moduleName": "SpotImStandaloneAds"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SpotImStandaloneAds",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
-        "name": "UIViewController",
-        "printedName": "UIViewController",
+        "name": "SpotImAdPlacementDelegate",
+        "printedName": "SpotImAdPlacementDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "spotImAdPlacement",
+            "printedName": "spotImAdPlacement(_:onContentEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SpotImAdPlacement",
+                "printedName": "any SpotImStandaloneAds.SpotImAdPlacement",
+                "usr": "s:19SpotImStandaloneAds0aB11AdPlacementP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SpotImAdEvent",
+                "printedName": "SpotImStandaloneAds.SpotImAdEvent",
+                "usr": "c:@M@SpotImStandaloneAds@objc(cs)SpotImAdEvent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentEventyAA0abeF0_p_AA0abeK0CtF",
+            "mangledName": "$s19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentEventyAA0abeF0_p_AA0abeK0CtF",
+            "moduleName": "SpotImStandaloneAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
+            "sugared_genericSig": "<Self where Self : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "spotImAdPlacement",
+            "printedName": "spotImAdPlacement(_:onContentState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SpotImAdPlacement",
+                "printedName": "any SpotImStandaloneAds.SpotImAdPlacement",
+                "usr": "s:19SpotImStandaloneAds0aB11AdPlacementP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SpotImAdState",
+                "printedName": "SpotImStandaloneAds.SpotImAdState",
+                "usr": "c:@M@SpotImStandaloneAds@E@SpotImAdState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentStateyAA0abeF0_p_AA0abeK0OtF",
+            "mangledName": "$s19SpotImStandaloneAds0aB19AdPlacementDelegateP04spotbeF0_14onContentStateyAA0abeF0_p_AA0abeK0OtF",
+            "moduleName": "SpotImStandaloneAds",
+            "genericSig": "<τ_0_0 where τ_0_0 : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
+            "sugared_genericSig": "<Self where Self : SpotImStandaloneAds.SpotImAdPlacementDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19SpotImStandaloneAds0aB19AdPlacementDelegateP",
+        "mangledName": "$s19SpotImStandaloneAds0aB19AdPlacementDelegateP",
+        "moduleName": "SpotImStandaloneAds",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
         "declKind": "Class",
-        "usr": "c:objc(cs)UIViewController",
+        "usr": "c:objc(cs)UIView",
         "moduleName": "UIKit",
         "isOpen": true,
         "intro_iOS": "2.0",
-        "objc_name": "UIViewController",
+        "objc_name": "UIView",
         "declAttributes": [
           "Available",
           "ObjC",
@@ -4604,6 +4703,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
       }
@@ -4612,445 +4718,445 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/SpotImAds.swift",
-      "kind": "BooleanLiteral",
-      "offset": 360,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/UI\/PlacementViewController.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/UI\/AdPlayerPlacement\/Views\/OWAdPlayerPlacementView.swift",
       "kind": "StringLiteral",
-      "offset": 188,
+      "offset": 136,
       "length": 23,
-      "value": "\"SpotImStandaloneAds.PlacementViewController\""
+      "value": "\"SpotImStandaloneAds.OWAdPlayerPlacementView\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/PlacementProviderImpl.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/Utils\/PlacementProviderImpl.swift",
       "kind": "Dictionary",
       "offset": 403,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 18,
       "value": "\"SpotImStandaloneAds.SpotImAdVideoEvent\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 25,
       "value": "\"SpotImStandaloneAds.ContentVideoProgressEvent\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 23,
       "value": "\"SpotImStandaloneAds.SpotImAdVideoErrorEvent\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "StringLiteral",
       "offset": 1031,
       "length": 25,
       "value": "\"SpotImStandaloneAds.SpotImAdVideoGenericEvent\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1391,
       "length": 18,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1419,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1438,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1458,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1480,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1496,
       "length": 6,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1512,
       "length": 8,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1530,
       "length": 5,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1545,
       "length": 7,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1391,
       "length": 18,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1419,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1438,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1458,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1480,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1496,
       "length": 6,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1512,
       "length": 8,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1530,
       "length": 5,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1545,
       "length": 7,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2225,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2248,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2266,
       "length": 13,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2289,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2225,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2248,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2266,
       "length": 13,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdVideoEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdVideoEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 2289,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 848,
+      "offset": 802,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusDisplayAd.swift",
       "kind": "StringLiteral",
       "offset": 268,
       "length": 15,
       "value": "\"SpotImStandaloneAds.NimbusDisplayAd\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Generated\/Versions.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/Generated\/Versions.swift",
       "kind": "StringLiteral",
-      "offset": 143,
+      "offset": 118,
       "length": 7,
-      "value": "\"1.2.0\""
+      "value": "\"1.3.0\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Generated\/Versions.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/Generated\/Versions.swift",
       "kind": "IntegerLiteral",
-      "offset": 172,
+      "offset": 147,
       "length": 2,
-      "value": "48"
+      "value": "49"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Enums\/SpotImAdState.swift",
       "kind": "IntegerLiteral",
       "offset": 190,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Enums\/SpotImAdState.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Enums\/SpotImAdState.swift",
       "kind": "IntegerLiteral",
       "offset": 190,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/States\/SpotImAdState.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Enums\/SpotImAdState.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "StringLiteral",
       "offset": 148,
       "length": 20,
       "value": "\"SpotImStandaloneAds.SpotImAdDisplayEvent\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "StringLiteral",
       "offset": 415,
       "length": 25,
       "value": "\"SpotImStandaloneAds.SpotImAdDisplayErrorEvent\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "StringLiteral",
       "offset": 711,
       "length": 27,
       "value": "\"SpotImStandaloneAds.SpotImAdDisplayGenericEvent\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1069,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1091,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1111,
       "length": 18,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1139,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1161,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1177,
       "length": 5,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1192,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1069,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1091,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1111,
       "length": 18,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1139,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1161,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1177,
       "length": 5,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/API\/Events\/SpotImAdDisplayEvent.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/SdkAPI\/Models\/AdEvent\/SpotImAdDisplayEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1192,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 789,
+      "offset": 775,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/KMDependencies\/DisplayAdsSource\/OpenWrapDisplayAd.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 17,
       "value": "\"SpotImStandaloneAds.OpenWrapDisplayAd\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusInitializer.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusInitializer.swift",
       "kind": "BooleanLiteral",
       "offset": 387,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusInitializer.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/KMDependencies\/DisplayAdsSource\/Nimbus\/NimbusInitializer.swift",
       "kind": "StringLiteral",
       "offset": 1901,
       "length": 531,
       "value": "\"SpotImStandaloneAds: NimbusSDK setup is invalid!\nPlease ensure NimbusSDK 'BUILD_LIBRARY_FOR_DISTRIBUTION' is set to 'YES'\nIf you're using Cocoa Pods then you might want to add it in the post-install script:\n\npost_install do |installer|\n  installer.pods_project.targets.each do |target|\n    target.build_configurations.each do |config|\n      if target.name == 'NimbusSDK'\n        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'\n      end\n    end\n  end\nend\n\""
     },
     {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/sdk\/SpotImStandaloneAds\/Classes\/Utils\/DIContainer.swift",
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/Utils\/DIContainer.swift",
       "kind": "Dictionary",
       "offset": 503,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/SpotImStandaloneAds\/UI\/Placement\/Views\/OWPlacementView.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 15,
+      "value": "\"SpotImStandaloneAds.OWPlacementView\""
     }
   ]
 }
