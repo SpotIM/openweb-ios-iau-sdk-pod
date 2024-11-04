@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SpotImStandaloneAds
 import AdPlayerSDK
 import AppHarbrSDK
+import Combine
 import Foundation
 import GoogleMobileAds
 import KmmSpotimStandaloneAd
@@ -15,33 +16,17 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public typealias SpotImAdPlacementViewController = UIKit.UIViewController & SpotImStandaloneAds.SpotImAdPlacement
+public struct SpotImAds {
+  public static func initSDK(spotId: Swift.String, storeURL: Foundation.URL)
+  public static func makePlacement(row: Swift.Int, column: Swift.Int, analyticsInfo: SpotImStandaloneAds.AnalyticsInfo? = nil) -> any UIKit.UIView & SpotImStandaloneAds.SpotImAdPlacement
+  public static func preload(row: Swift.Int, column: Swift.Int, analyticsInfo: SpotImStandaloneAds.AnalyticsInfo?)
+  public static func setGdprRequired(required: Swift.Bool)
+  public static func setGdprConsentString(consent: Swift.String)
+}
 public protocol SpotImAdPlacement : AnyObject {
   var delegate: (any SpotImStandaloneAds.SpotImAdPlacementDelegate)? { get set }
   var sizeDelegate: (any SpotImStandaloneAds.SizeDelegate)? { get set }
   var state: SpotImStandaloneAds.SpotImAdState { get }
-}
-extension SpotImStandaloneAds.SpotImAds {
-  public static func makePlacement(row: Swift.Int, column: Swift.Int, analyticsInfo: SpotImStandaloneAds.AnalyticsInfo? = nil) -> any UIKit.UIViewController & SpotImStandaloneAds.SpotImAdPlacement
-}
-public protocol SizeDelegate : AnyObject {
-  func adPlacementHeightWillChange(to newValue: CoreFoundation.CGFloat)
-}
-public protocol SpotImAdPlacementDelegate : AnyObject {
-  func spotImAdPlacement(_ placement: any SpotImStandaloneAds.SpotImAdPlacement, onContentEvent event: SpotImStandaloneAds.SpotImAdEvent)
-  func spotImAdPlacement(_ placement: any SpotImStandaloneAds.SpotImAdPlacement, onContentState state: SpotImStandaloneAds.SpotImAdState)
-}
-public struct SpotImAds {
-  public static func initSDK(spotId: Swift.String, storeURL: Foundation.URL, useSentry: Swift.Bool = false)
-  public static func setGdprRequired(required: Swift.Bool)
-  public static func setGdprConsentString(consent: Swift.String)
-  public static func preload(row: Swift.Int, column: Swift.Int, analyticsInfo: SpotImStandaloneAds.AnalyticsInfo?)
-}
-public struct AnalyticsInfo {
-  public let url: Swift.String
-  public let postId: Swift.String
-  public let userId: Swift.String
-  public init(url: Swift.String, postId: Swift.String, userId: Swift.String)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class SpotImAdEvent : ObjectiveC.NSObject {
   @objc deinit
@@ -164,11 +149,26 @@ extension SpotImStandaloneAds.SpotImAdState : Swift.CustomStringConvertible {
     get
   }
 }
-public enum SpotImAdsDebug {
+@_hasMissingDesignatedInitializers public class SpotImAdsDebug {
   public static func setGADMobileAds(testDeviceIdentifiers: [Swift.String])
   public static func setOpenWrap(logEnabled: Swift.Bool)
   public static func isNimbusInstalledCorrectly() -> Swift.Bool
   public static func observeAnalyticsEvents(onEvent: @escaping (Swift.String, Swift.String) -> Swift.Void)
+  @objc deinit
+}
+public struct AnalyticsInfo {
+  public let url: Swift.String
+  public let postId: Swift.String
+  public let userId: Swift.String
+  public init(url: Swift.String, postId: Swift.String, userId: Swift.String)
+}
+public typealias SpotImAdPlacementView = UIKit.UIView & SpotImStandaloneAds.SpotImAdPlacement
+public protocol SizeDelegate : AnyObject {
+  func adPlacementHeightWillChange(to newValue: CoreFoundation.CGFloat)
+}
+public protocol SpotImAdPlacementDelegate : AnyObject {
+  func spotImAdPlacement(_ placement: any SpotImStandaloneAds.SpotImAdPlacement, onContentEvent event: SpotImStandaloneAds.SpotImAdEvent)
+  func spotImAdPlacement(_ placement: any SpotImStandaloneAds.SpotImAdPlacement, onContentState state: SpotImStandaloneAds.SpotImAdState)
 }
 extension SpotImStandaloneAds.SpotImAdVideoEventType : Swift.Equatable {}
 extension SpotImStandaloneAds.SpotImAdVideoEventType : Swift.Hashable {}

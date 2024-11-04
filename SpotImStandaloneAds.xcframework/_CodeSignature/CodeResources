@@ -10,15 +10,15 @@
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Info.plist</key>
 		<data>
-		Wm9GbbGeXpxwmrPZzbQrSlnePY4=
+		4eFnWWsVcBWC75dqVJwfav8saKk=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iV0cBtD8bqRRlpIHVDK/DKxhgZg=
+		fU+FZix3GwHEGekVr+T7l5IYxlU=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		cTWGTHU22N+B8gfBbjGrZz43OX8=
+		PUOhDSVt4izJlJLyqtA0U3nYc2k=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		cTWGTHU22N+B8gfBbjGrZz43OX8=
+		PUOhDSVt4izJlJLyqtA0U3nYc2k=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/module.modulemap</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/SpotImStandaloneAds</key>
 		<data>
-		pBgu2uBNBRfS9HYICMYvUyIPheE=
+		gbzBOYrrFAmPitpXqw1bCij8N4Q=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		Jg1gxYxpvhZHzdM3raYivqxGe9A=
+		r4YIezfd35MC+eF4W/fdwWLP298=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -46,15 +46,15 @@
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		sO+Ix7zGVy/nWzRW/clXqGczVOw=
+		Nkw33M5q/CBypyW1ygaOcIraHMQ=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wAyTH3oPGYrE0hQo4YLxE4QIyXw=
+		m+YKxASQhofoVZkTbML3KD5GEno=
 		</data>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		J6rNdpJNAg3Yj4Xajqvo0sBKIVA=
+		FwlpjcYNVDpklkmx61Rr5ix62EA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Headers/SpotImStandaloneAds.h</key>
 		<data>
@@ -62,15 +62,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Info.plist</key>
 		<data>
-		oNjrmpbY2Pw4dg6Qyg4IdtwkHPo=
+		f/8EUigbnqbAhrMgrcPDr2FtH3Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iV0cBtD8bqRRlpIHVDK/DKxhgZg=
+		fU+FZix3GwHEGekVr+T7l5IYxlU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HVEmtwaNSAi5VYYGaP0hjTDZ3Iw=
+		Jk02UdKy2zqA+jQ9I5h6vR0Ipms=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,15 +78,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HVEmtwaNSAi5VYYGaP0hjTDZ3Iw=
+		Jk02UdKy2zqA+jQ9I5h6vR0Ipms=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iV0cBtD8bqRRlpIHVDK/DKxhgZg=
+		fU+FZix3GwHEGekVr+T7l5IYxlU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QfN/BPwRjfpMJGqizOJJSLmJ1kM=
+		OKSh6QkRkBsytxpAzv8c0xLflTA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QfN/BPwRjfpMJGqizOJJSLmJ1kM=
+		OKSh6QkRkBsytxpAzv8c0xLflTA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/module.modulemap</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/SpotImStandaloneAds</key>
 		<data>
-		d9CsOs7/k5fx1L6WZPac5wO6loU=
+		Ky8tdWIoLc6xyTyyfyF3NMV1BSs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		iRRQ6+L6+xonOk5cuLT6ViTvzJ4=
+		yp12jzeJTk3N31FyLneFp10FZxw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		T/5vgLxtyPVw00mbmYv65iTTtU8=
+		PeSbX73bMKVOqmzeFQYvGkqrAeA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeResources</key>
 		<data>
-		iQYRXgqgSOcTpDn47qJXZZNce6w=
+		cSdpSvmH+4o2E/3RqDzlTTy0OcQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -142,33 +142,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wm9GbbGeXpxwmrPZzbQrSlnePY4=
+			4eFnWWsVcBWC75dqVJwfav8saKk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TgCUZAg6QpAvaG70fdzYclnygwZwjhYxlUgwLPcZHAI=
+			oHPf5gP48B694KilAtyt5ugPZJRCEtR1pchBYtrQpqE=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iV0cBtD8bqRRlpIHVDK/DKxhgZg=
+			fU+FZix3GwHEGekVr+T7l5IYxlU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4dXDhwMjcOXYEvBCh96cv/9pbSD1NaKGlg4mkHMjWPc=
+			FGA1xYJZLR9Wxi/CUO9J9edLwIQCa20OSlk0lHJWLEw=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cTWGTHU22N+B8gfBbjGrZz43OX8=
+			PUOhDSVt4izJlJLyqtA0U3nYc2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			SClJULMOUi/Ib/10CsQDO2oc0cNUVCbmdMXP4xssxmc=
+			f8MUBjqEBSgwEijgsagkax2TAJU295HE7QzlOlYg1+8=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -186,11 +186,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cTWGTHU22N+B8gfBbjGrZz43OX8=
+			PUOhDSVt4izJlJLyqtA0U3nYc2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			SClJULMOUi/Ib/10CsQDO2oc0cNUVCbmdMXP4xssxmc=
+			f8MUBjqEBSgwEijgsagkax2TAJU295HE7QzlOlYg1+8=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/Modules/module.modulemap</key>
@@ -208,22 +208,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pBgu2uBNBRfS9HYICMYvUyIPheE=
+			gbzBOYrrFAmPitpXqw1bCij8N4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			trI9MBjXoda/CIJ/WPxQV8kXGRVmRYRRqahWvNU6E+Y=
+			lbf4P18X5hZQuutAyxprCTiZLQkt93xF6IcXQZhc4KA=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jg1gxYxpvhZHzdM3raYivqxGe9A=
+			r4YIezfd35MC+eF4W/fdwWLP298=
 			</data>
 			<key>hash2</key>
 			<data>
-			5zsjIjFqV95vsgej8NXaoV+vXPkGH0hK3jqw+zrXd8A=
+			PB5IxvdKOvYdjCK+I3nxH0kzIZRMtS30wUSLOaBbZ/k=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeRequirements</key>
@@ -241,33 +241,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sO+Ix7zGVy/nWzRW/clXqGczVOw=
+			Nkw33M5q/CBypyW1ygaOcIraHMQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			euDnwz0/BFOjiVm6iYJ8CvJqrQ5EmzhPj5MMW3FgBBg=
+			l6lBBL3A4hNDDCv3hFZUXMfjl5TBVNMMBsJuWuawE18=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wAyTH3oPGYrE0hQo4YLxE4QIyXw=
+			m+YKxASQhofoVZkTbML3KD5GEno=
 			</data>
 			<key>hash2</key>
 			<data>
-			X+uh7xOWp9Pggvhed6OZFIvt3unLnJUqUJxHji9n7hw=
+			f6fVcHGN4QNzOv2j5Ajh6UTmjDw6mJOl6zM9GWPHYb8=
 			</data>
 		</dict>
 		<key>ios-arm64/SpotImStandaloneAds.framework/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J6rNdpJNAg3Yj4Xajqvo0sBKIVA=
+			FwlpjcYNVDpklkmx61Rr5ix62EA=
 			</data>
 			<key>hash2</key>
 			<data>
-			OvwRyaBcFBwmpKiWewdW2OyaRdupdDIhH2BPaba/Wtw=
+			p/iEhyJ1RR3EVv9DTepaPaFpdFTsk04u4qn+R9VajPE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Headers/SpotImStandaloneAds.h</key>
@@ -285,33 +285,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oNjrmpbY2Pw4dg6Qyg4IdtwkHPo=
+			f/8EUigbnqbAhrMgrcPDr2FtH3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			7JXSi3nkMDau4denuV1D4zM4tgvoXQZiiZMfGBS+uLM=
+			hmjPgYGloh2qzbaf8DKZNRR2PI0HU3mh0xhKTRLqazs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iV0cBtD8bqRRlpIHVDK/DKxhgZg=
+			fU+FZix3GwHEGekVr+T7l5IYxlU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4dXDhwMjcOXYEvBCh96cv/9pbSD1NaKGlg4mkHMjWPc=
+			FGA1xYJZLR9Wxi/CUO9J9edLwIQCa20OSlk0lHJWLEw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HVEmtwaNSAi5VYYGaP0hjTDZ3Iw=
+			Jk02UdKy2zqA+jQ9I5h6vR0Ipms=
 			</data>
 			<key>hash2</key>
 			<data>
-			iiJ8Pvu8yeOexxVFVH3sLrD5wCl8rMZm+A6eK8sPzRI=
+			rxAwZVUpajJGzG98RRhS4rawSljY2JNH+9bkhhdtyy8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -329,33 +329,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HVEmtwaNSAi5VYYGaP0hjTDZ3Iw=
+			Jk02UdKy2zqA+jQ9I5h6vR0Ipms=
 			</data>
 			<key>hash2</key>
 			<data>
-			iiJ8Pvu8yeOexxVFVH3sLrD5wCl8rMZm+A6eK8sPzRI=
+			rxAwZVUpajJGzG98RRhS4rawSljY2JNH+9bkhhdtyy8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iV0cBtD8bqRRlpIHVDK/DKxhgZg=
+			fU+FZix3GwHEGekVr+T7l5IYxlU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4dXDhwMjcOXYEvBCh96cv/9pbSD1NaKGlg4mkHMjWPc=
+			FGA1xYJZLR9Wxi/CUO9J9edLwIQCa20OSlk0lHJWLEw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QfN/BPwRjfpMJGqizOJJSLmJ1kM=
+			OKSh6QkRkBsytxpAzv8c0xLflTA=
 			</data>
 			<key>hash2</key>
 			<data>
-			WcEj1g743CDlESdZhZhkL2lpeO7/z3FNXp+EEcGtM0Q=
+			4BreEXChddUb4Fd5zre7wRH2H5++OMShj9BYwVVm7j8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/SpotImStandaloneAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -373,11 +373,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QfN/BPwRjfpMJGqizOJJSLmJ1kM=
+			OKSh6QkRkBsytxpAzv8c0xLflTA=
 			</data>
 			<key>hash2</key>
 			<data>
-			WcEj1g743CDlESdZhZhkL2lpeO7/z3FNXp+EEcGtM0Q=
+			4BreEXChddUb4Fd5zre7wRH2H5++OMShj9BYwVVm7j8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/Modules/module.modulemap</key>
@@ -395,22 +395,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			d9CsOs7/k5fx1L6WZPac5wO6loU=
+			Ky8tdWIoLc6xyTyyfyF3NMV1BSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			cDgwBoSOfTjOYzG1RDI0LO/65DJg62w/SL3XTzhO2sU=
+			D4pFTZNp787PqZvsSECAc8WNCScF0gAeyYX2bcXDwkY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iRRQ6+L6+xonOk5cuLT6ViTvzJ4=
+			yp12jzeJTk3N31FyLneFp10FZxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			OKQjNoj4Us5muTqqyRxUGZp+Pb5lPUxQnoEvXDBsyqA=
+			HHsejFG0Huu3AXq5Wc2jWJ2MU1ZODeW5b1btIzYgs8w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeRequirements</key>
@@ -428,22 +428,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T/5vgLxtyPVw00mbmYv65iTTtU8=
+			PeSbX73bMKVOqmzeFQYvGkqrAeA=
 			</data>
 			<key>hash2</key>
 			<data>
-			UX9qCUs8B0/5q7ZDVom0z+Z4obgNzC6X1DIwIpjJdcg=
+			3WbtWueSxhIE6ZknSWJOzmxo3y5WiY+yXZ/M7N8zxtQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iQYRXgqgSOcTpDn47qJXZZNce6w=
+			cSdpSvmH+4o2E/3RqDzlTTy0OcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kW+SvVa9pG8xgDkuTzOu/sbS7KIzFnaaI94Z0B08zq8=
+			gBvtDxEm3eFDl0t++J5/DtyD4CKAiEO78YKCm5ulbkE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SpotImStandaloneAds.framework/_CodeSignature/CodeSignature</key>
