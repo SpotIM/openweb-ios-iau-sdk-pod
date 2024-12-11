@@ -1,6 +1,0 @@
-framework module SpotImStandaloneAds {
-  umbrella header "SpotImStandaloneAds.h"
-  export *
-
-  module * { export * }
-}

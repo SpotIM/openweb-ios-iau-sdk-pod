@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenWebIAU'
-  s.version          = '1.3.0'
+  s.version          = '2.0.0'
   s.swift_versions   = ['5.0']
   s.summary          = 'OpenWeb IAU SDK'
   s.description      = 'This SDK allows you to integrate OpenWeb IAU into your iOS app.'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   # the Pre-Compiled Framework:
   s.source          = { :git => 'https://github.com/SpotIM/openweb-ios-iau-sdk-pod.git', :tag => s.version.to_s }
-  s.ios.vendored_frameworks = 'KmmSpotimStandaloneAd.xcframework', 'SpotImStandaloneAds.xcframework'
+  s.ios.vendored_frameworks = 'KmmSpotimStandaloneAd.xcframework', 'OpenWebIAUSDK.xcframework'
 
   # Dependencies
   s.dependency 'AdPlayerSDK', '~> 1.11.9'

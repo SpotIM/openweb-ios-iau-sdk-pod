@@ -377,14 +377,12 @@ __attribute__((swift_name("KMCrashReportProvider")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SpotImAnalyticsInfo")))
 @interface KSSASpotImAnalyticsInfo : KSSABase
-- (instancetype)initWithUrl:(NSString *)url postId:(NSString *)postId userId:(NSString *)userId __attribute__((swift_name("init(url:postId:userId:)"))) __attribute__((objc_designated_initializer));
-- (KSSASpotImAnalyticsInfo *)doCopyUrl:(NSString *)url postId:(NSString *)postId userId:(NSString *)userId __attribute__((swift_name("doCopy(url:postId:userId:)")));
+- (instancetype)initWithPostId:(NSString *)postId __attribute__((swift_name("init(postId:)"))) __attribute__((objc_designated_initializer));
+- (KSSASpotImAnalyticsInfo *)doCopyPostId:(NSString *)postId __attribute__((swift_name("doCopy(postId:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property NSString *postId __attribute__((swift_name("postId")));
-@property NSString *url __attribute__((swift_name("url")));
-@property NSString *userId __attribute__((swift_name("userId")));
 @end
 
 __attribute__((swift_name("KMPlayerProviding")))
@@ -490,7 +488,7 @@ __attribute__((swift_name("KMAdPlacementViewModelFactory")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)kMAdPlacementViewModelFactory __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KSSAKMAdPlacementViewModelFactory *shared __attribute__((swift_name("shared")));
-- (id<KSSAAdPlacementViewModel>)create __attribute__((swift_name("create()")));
+- (id<KSSAAdPlacementViewModel>)createPlacementId:(NSString *)placementId __attribute__((swift_name("create(placementId:)")));
 @end
 
 __attribute__((swift_name("KMContentEvent")))
