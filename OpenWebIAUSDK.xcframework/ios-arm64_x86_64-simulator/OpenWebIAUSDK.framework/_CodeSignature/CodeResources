@@ -4,63 +4,79 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		62ig9oFcNMXQxXHhdrpe/WCmsyY=
+		</data>
 		<key>Headers/SpotImStandaloneAds.h</key>
 		<data>
 		CdTqHXRLlYUH6UNk1KAUZtT7Hxg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RiUgn8Kt+hfT5n0B591fiIc6lg8=
+		AZUAxl+Kzxgnt0iJ+df9eAuUYLQ=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RSjE2868LSbPv79Ewa5zDe9grUw=
+		RNYW6q3MfvPa1NAVvUCtRRqBRVA=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BI+Icy7PL1TmkAeofLAjTEId/Iw=
+		LH+WKzJcZOP5GD5GRYvfk1ae+pc=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8IRxZcVgPx/9ai4ygcrtnInuVX4=
+		XYbZC5vwnebjDnp2z3poZIAkWlQ=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BI+Icy7PL1TmkAeofLAjTEId/Iw=
+		LH+WKzJcZOP5GD5GRYvfk1ae+pc=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ba3bzRy9WibIgtJFdHLZWOiINTs=
+		iN3Ikl7hU591x4YcbFV3ePdbNd4=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RSjE2868LSbPv79Ewa5zDe9grUw=
+		RNYW6q3MfvPa1NAVvUCtRRqBRVA=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		S+qm99Z5umKqiOaN6dEUQYpaF4M=
+		epkMKb7w3t/VBEXZQLgKQD5PoPY=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hpdA0J/1nKbGkWohn/AHQ/HNc7Y=
+		4Mjbr7+CsqhZ+8WFSHGv17m7xOM=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S+qm99Z5umKqiOaN6dEUQYpaF4M=
+		epkMKb7w3t/VBEXZQLgKQD5PoPY=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bRXzsuX51wazEH7Xiw+WDC9DKLQ=
+		qYwr9dpQHAzbp3vw0Suw3Be2EeI=
 		</data>
-	</dict>
-	<key>files2</key>
-	<dict>
-		<key>Headers/SpotImStandaloneAds.h</key>
+		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CdTqHXRLlYUH6UNk1KAUZtT7Hxg=
+			YkMUJfMmQJG2NJZHExUdJCywPgs=
 			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eZEGSTFiBMM4cDkGzj4hOgJHlNnK9AoGh9GwLeSnNrM=
+			</data>
+		</dict>
+		<key>Headers/SpotImStandaloneAds.h</key>
+		<dict>
 			<key>hash2</key>
 			<data>
 			cXATT0L5/xYYIOhrdoS4zx3S7Jr6i1f50njjpVyEQq8=
@@ -68,113 +84,82 @@
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RSjE2868LSbPv79Ewa5zDe9grUw=
-			</data>
 			<key>hash2</key>
 			<data>
-			z3X4d6KF4HnFRSmHJSdLrv+7FRsJcGMB7j6g3nB+Kp4=
+			F6XtNS5FKwPnDvtyC+iTtSMfU5nqP4UHy7o86kSWhdE=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BI+Icy7PL1TmkAeofLAjTEId/Iw=
-			</data>
 			<key>hash2</key>
 			<data>
-			9HlIxITqE3mYmyuCkySUelqMF9tLYsQwpiHyZgU0zRc=
+			yXnOB+Sv1NOxRxcPj5aUkKJi8JtqrwWLzSeAIUJ2F3k=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8IRxZcVgPx/9ai4ygcrtnInuVX4=
-			</data>
 			<key>hash2</key>
 			<data>
-			ceZmANtTBK/BMkQWXZqv7pZTroXmngbGDBuGra8t+VU=
+			QPWR8v606e5bkg2Hp6WVpdXOVWBNNnGEAKdwzt63uEw=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BI+Icy7PL1TmkAeofLAjTEId/Iw=
-			</data>
 			<key>hash2</key>
 			<data>
-			9HlIxITqE3mYmyuCkySUelqMF9tLYsQwpiHyZgU0zRc=
+			yXnOB+Sv1NOxRxcPj5aUkKJi8JtqrwWLzSeAIUJ2F3k=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ba3bzRy9WibIgtJFdHLZWOiINTs=
-			</data>
 			<key>hash2</key>
 			<data>
-			rp+0Sg50d47j36hl60rtzAngO+ghPukQHCKdCm5Iq+4=
+			ey8Yd7sYakObnsKFS+1pR/aUEBe83NCkQ1FfhHQFpww=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RSjE2868LSbPv79Ewa5zDe9grUw=
-			</data>
 			<key>hash2</key>
 			<data>
-			z3X4d6KF4HnFRSmHJSdLrv+7FRsJcGMB7j6g3nB+Kp4=
+			F6XtNS5FKwPnDvtyC+iTtSMfU5nqP4UHy7o86kSWhdE=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S+qm99Z5umKqiOaN6dEUQYpaF4M=
-			</data>
 			<key>hash2</key>
 			<data>
-			Go5UQDo45ENGpWgqfPaxBFAYUyZrtYW7PeuPRyM6Fmg=
+			NbOhwBYNmRbp6VIc7LACgWIlB4qJWrWLQZGIj1eWJWg=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hpdA0J/1nKbGkWohn/AHQ/HNc7Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			LFwzQxI4KdAZrgE6oRuNr/WJfaUNV5TN5N0aTVCfCN0=
+			lZvA9fx+gGp2EF9WZ//duKrt25//fLfNKr6MaC1eD5Q=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			S+qm99Z5umKqiOaN6dEUQYpaF4M=
-			</data>
 			<key>hash2</key>
 			<data>
-			Go5UQDo45ENGpWgqfPaxBFAYUyZrtYW7PeuPRyM6Fmg=
+			NbOhwBYNmRbp6VIc7LACgWIlB4qJWrWLQZGIj1eWJWg=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bRXzsuX51wazEH7Xiw+WDC9DKLQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			6BDX0BrZQdcMSiGJCGh7wTOjpTA1rWEHaZ+ONra8KXk=
+			IGAug6tpnsnv8rrVWFIwRRPr78/Vc2ht71F4FAZmxnQ=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GPu1ZbAdyiFxgEMJv3VTEPshxRaqV/TyVQkpzsphzKE=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
