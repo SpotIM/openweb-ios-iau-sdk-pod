@@ -4,33 +4,50 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ios-arm64/OpenWebIAUSDK.framework/Assets.car</key>
+		<data>
+		62ig9oFcNMXQxXHhdrpe/WCmsyY=
+		</data>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Headers/SpotImStandaloneAds.h</key>
 		<data>
 		CdTqHXRLlYUH6UNk1KAUZtT7Hxg=
 		</data>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Info.plist</key>
 		<data>
-		ZDGaEsb6GGFOSmuEelWX36D/QrQ=
+		7KZo5dLLelkf1Atk/KitHY5aOGo=
 		</data>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		RSjE2868LSbPv79Ewa5zDe9grUw=
+		Y/XrQ+gYv+SSyCduzMcohGqe5Q8=
 		</data>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1+m7BghCMOpaxgnalHJASSjp6Eg=
+		nO7o9GLSGhfbGPhhc5rq8iYzYAo=
 		</data>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		QgnODJrfmYZIQVXC9ytXCBKE9cg=
+		GqKPraEK1ZYt+kKN5QeDfAyvgV0=
 		</data>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1+m7BghCMOpaxgnalHJASSjp6Eg=
+		nO7o9GLSGhfbGPhhc5rq8iYzYAo=
 		</data>
 		<key>ios-arm64/OpenWebIAUSDK.framework/OpenWebIAUSDK</key>
 		<data>
-		IjXAMB4Je6bB3rn+0xZkAEijMCU=
+		4y7jep+mP00Q53Bi2IO5UOdD/ms=
+		</data>
+		<key>ios-arm64/OpenWebIAUSDK.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YkMUJfMmQJG2NJZHExUdJCywPgs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Assets.car</key>
+		<data>
+		62ig9oFcNMXQxXHhdrpe/WCmsyY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Headers/SpotImStandaloneAds.h</key>
 		<data>
@@ -38,67 +55,71 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Info.plist</key>
 		<data>
-		RiUgn8Kt+hfT5n0B591fiIc6lg8=
+		AZUAxl+Kzxgnt0iJ+df9eAuUYLQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RSjE2868LSbPv79Ewa5zDe9grUw=
+		RNYW6q3MfvPa1NAVvUCtRRqBRVA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BI+Icy7PL1TmkAeofLAjTEId/Iw=
+		LH+WKzJcZOP5GD5GRYvfk1ae+pc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8IRxZcVgPx/9ai4ygcrtnInuVX4=
+		XYbZC5vwnebjDnp2z3poZIAkWlQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BI+Icy7PL1TmkAeofLAjTEId/Iw=
+		LH+WKzJcZOP5GD5GRYvfk1ae+pc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RSjE2868LSbPv79Ewa5zDe9grUw=
+		RNYW6q3MfvPa1NAVvUCtRRqBRVA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		S+qm99Z5umKqiOaN6dEUQYpaF4M=
+		epkMKb7w3t/VBEXZQLgKQD5PoPY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hpdA0J/1nKbGkWohn/AHQ/HNc7Y=
+		4Mjbr7+CsqhZ+8WFSHGv17m7xOM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S+qm99Z5umKqiOaN6dEUQYpaF4M=
+		epkMKb7w3t/VBEXZQLgKQD5PoPY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/OpenWebIAUSDK</key>
 		<data>
-		Da3rgbPSU3+tF4vOXuzXbPOeQdQ=
-		</data>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		aeCHfYGuBRx79tIfTqAFA9GIyUs=
-		</data>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		T6gAo+XJiYwa9eXtRhkS3f3KD+s=
+		S0ir7PWXzVxxfmpvObYuTsd8hrg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		iDmvq78YIq8pFc08vu4bESP+ESc=
+		Itz9SlHwoCjnpLfw+v0d8+Nb3rM=
 		</data>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
+		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YkMUJfMmQJG2NJZHExUdJCywPgs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ios-arm64/OpenWebIAUSDK.framework/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			62ig9oFcNMXQxXHhdrpe/WCmsyY=
+			</data>
+			<key>hash2</key>
+			<data>
+			eZEGSTFiBMM4cDkGzj4hOgJHlNnK9AoGh9GwLeSnNrM=
+			</data>
+		</dict>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Headers/SpotImStandaloneAds.h</key>
 		<dict>
 			<key>hash</key>
@@ -114,66 +135,90 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZDGaEsb6GGFOSmuEelWX36D/QrQ=
+			7KZo5dLLelkf1Atk/KitHY5aOGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			+nTlHC2vUeWisS20GRtgkLZpTDCg+ApZVDfcuARfEJU=
+			JUulopAfnqWUj7izGm0quTTJiCJM8v+qPJHeZTdfI8M=
 			</data>
 		</dict>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RSjE2868LSbPv79Ewa5zDe9grUw=
+			Y/XrQ+gYv+SSyCduzMcohGqe5Q8=
 			</data>
 			<key>hash2</key>
 			<data>
-			z3X4d6KF4HnFRSmHJSdLrv+7FRsJcGMB7j6g3nB+Kp4=
+			AmD9Coq5T3zDGND6O8pb64DqkIgLN6QItFsfmzseWsk=
 			</data>
 		</dict>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1+m7BghCMOpaxgnalHJASSjp6Eg=
+			nO7o9GLSGhfbGPhhc5rq8iYzYAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lSW7JvtbGsxgmItZc1PdaR6zV/h1bJMBrnFTd0+UNnk=
+			pd8YDUMyjZAyb1xk8Jwn1zuTwusmDkCet6se64O/A+I=
 			</data>
 		</dict>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QgnODJrfmYZIQVXC9ytXCBKE9cg=
+			GqKPraEK1ZYt+kKN5QeDfAyvgV0=
 			</data>
 			<key>hash2</key>
 			<data>
-			v7OkeTQ0KU0e8hoVszdQI+UXIogszPs0F6bFzlftcT4=
+			ei3rTX/JxsDuPqYeMFxrxeBxS1tJCPJBXkSPbg0kcAg=
 			</data>
 		</dict>
 		<key>ios-arm64/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1+m7BghCMOpaxgnalHJASSjp6Eg=
+			nO7o9GLSGhfbGPhhc5rq8iYzYAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lSW7JvtbGsxgmItZc1PdaR6zV/h1bJMBrnFTd0+UNnk=
+			pd8YDUMyjZAyb1xk8Jwn1zuTwusmDkCet6se64O/A+I=
 			</data>
 		</dict>
 		<key>ios-arm64/OpenWebIAUSDK.framework/OpenWebIAUSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IjXAMB4Je6bB3rn+0xZkAEijMCU=
+			4y7jep+mP00Q53Bi2IO5UOdD/ms=
 			</data>
 			<key>hash2</key>
 			<data>
-			x7S8I4WNE9lIeE7G9kbAcUtJZRC31FF1HmVdnLA5A9Y=
+			FjSTa1kqTcoSIxrsd0aHEcakhziI/MOoCXg6uOejGLI=
+			</data>
+		</dict>
+		<key>ios-arm64/OpenWebIAUSDK.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YkMUJfMmQJG2NJZHExUdJCywPgs=
+			</data>
+			<key>hash2</key>
+			<data>
+			GPu1ZbAdyiFxgEMJv3VTEPshxRaqV/TyVQkpzsphzKE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			62ig9oFcNMXQxXHhdrpe/WCmsyY=
+			</data>
+			<key>hash2</key>
+			<data>
+			eZEGSTFiBMM4cDkGzj4hOgJHlNnK9AoGh9GwLeSnNrM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Headers/SpotImStandaloneAds.h</key>
@@ -191,166 +236,135 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RiUgn8Kt+hfT5n0B591fiIc6lg8=
+			AZUAxl+Kzxgnt0iJ+df9eAuUYLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			P60P7lY5SYJ1uN9WAVXpsM6dRE5t/j6f4bu1X1QBoQE=
+			t5qqOIarBT6R43xGfVFW9ykYKb840Ct87z2lO430nA8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RSjE2868LSbPv79Ewa5zDe9grUw=
+			RNYW6q3MfvPa1NAVvUCtRRqBRVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			z3X4d6KF4HnFRSmHJSdLrv+7FRsJcGMB7j6g3nB+Kp4=
+			F6XtNS5FKwPnDvtyC+iTtSMfU5nqP4UHy7o86kSWhdE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BI+Icy7PL1TmkAeofLAjTEId/Iw=
+			LH+WKzJcZOP5GD5GRYvfk1ae+pc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9HlIxITqE3mYmyuCkySUelqMF9tLYsQwpiHyZgU0zRc=
+			yXnOB+Sv1NOxRxcPj5aUkKJi8JtqrwWLzSeAIUJ2F3k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8IRxZcVgPx/9ai4ygcrtnInuVX4=
+			XYbZC5vwnebjDnp2z3poZIAkWlQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ceZmANtTBK/BMkQWXZqv7pZTroXmngbGDBuGra8t+VU=
+			QPWR8v606e5bkg2Hp6WVpdXOVWBNNnGEAKdwzt63uEw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BI+Icy7PL1TmkAeofLAjTEId/Iw=
+			LH+WKzJcZOP5GD5GRYvfk1ae+pc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9HlIxITqE3mYmyuCkySUelqMF9tLYsQwpiHyZgU0zRc=
+			yXnOB+Sv1NOxRxcPj5aUkKJi8JtqrwWLzSeAIUJ2F3k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RSjE2868LSbPv79Ewa5zDe9grUw=
+			RNYW6q3MfvPa1NAVvUCtRRqBRVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			z3X4d6KF4HnFRSmHJSdLrv+7FRsJcGMB7j6g3nB+Kp4=
+			F6XtNS5FKwPnDvtyC+iTtSMfU5nqP4UHy7o86kSWhdE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S+qm99Z5umKqiOaN6dEUQYpaF4M=
+			epkMKb7w3t/VBEXZQLgKQD5PoPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Go5UQDo45ENGpWgqfPaxBFAYUyZrtYW7PeuPRyM6Fmg=
+			NbOhwBYNmRbp6VIc7LACgWIlB4qJWrWLQZGIj1eWJWg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hpdA0J/1nKbGkWohn/AHQ/HNc7Y=
+			4Mjbr7+CsqhZ+8WFSHGv17m7xOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LFwzQxI4KdAZrgE6oRuNr/WJfaUNV5TN5N0aTVCfCN0=
+			lZvA9fx+gGp2EF9WZ//duKrt25//fLfNKr6MaC1eD5Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S+qm99Z5umKqiOaN6dEUQYpaF4M=
+			epkMKb7w3t/VBEXZQLgKQD5PoPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Go5UQDo45ENGpWgqfPaxBFAYUyZrtYW7PeuPRyM6Fmg=
+			NbOhwBYNmRbp6VIc7LACgWIlB4qJWrWLQZGIj1eWJWg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/OpenWebIAUSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Da3rgbPSU3+tF4vOXuzXbPOeQdQ=
+			S0ir7PWXzVxxfmpvObYuTsd8hrg=
 			</data>
 			<key>hash2</key>
 			<data>
-			i3U0UJKKwwVOt+FGmsGeWJVmAImPw1sP/CmcrOs1FLc=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aeCHfYGuBRx79tIfTqAFA9GIyUs=
-			</data>
-			<key>hash2</key>
-			<data>
-			2O8XJJyLFPorfeoNGjjVRo4Dc2BCZtFUp6Q/FsFDn8s=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			T6gAo+XJiYwa9eXtRhkS3f3KD+s=
-			</data>
-			<key>hash2</key>
-			<data>
-			rPSLZls+qQfzIokcI1FYfRLbMPLxaRhCDeTxiH3FJsU=
+			x53LZwtEdvJbnyHtX2pyq+4JiFf/XnrbcrDPX6/XXP4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iDmvq78YIq8pFc08vu4bESP+ESc=
+			Itz9SlHwoCjnpLfw+v0d8+Nb3rM=
 			</data>
 			<key>hash2</key>
 			<data>
-			GToOfNM2TDiKwEAdj7wln68ocwYmYnu4Ci94IwIqJvk=
+			EFxdEHoFA8zPzw5M4I8s2gN81m7Mb3ebantaKeTlJGo=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/_CodeSignature/CodeSignature</key>
+		<key>ios-arm64_x86_64-simulator/OpenWebIAUSDK.framework/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			YkMUJfMmQJG2NJZHExUdJCywPgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			GPu1ZbAdyiFxgEMJv3VTEPshxRaqV/TyVQkpzsphzKE=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
