@@ -66,6 +66,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpenWebIAUSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6014,14 +6024,14 @@
       "kind": "StringLiteral",
       "offset": 118,
       "length": 7,
-      "value": "\"2.1.0\""
+      "value": "\"2.1.1\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Generated\/Versions.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
       "length": 2,
-      "value": "51"
+      "value": "52"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusDisplayAd.swift",
@@ -6943,42 +6953,42 @@
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/AdFooter\/Views\/OWIAUAdFooterView.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 406,
+      "length": 53,
+      "value": "\"https:\/\/publisher-assets.spot.im\/yad\/ad-choises.png\""
+    },
+    {
+      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/AdFooter\/Views\/OWIAUAdFooterView.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
       "length": 11,
       "value": "\"AdChoices\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/AdFooter\/Views\/OWIAUAdFooterView.swift",
       "kind": "StringLiteral",
-      "offset": 917,
+      "offset": 1011,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/AdFooter\/Views\/OWIAUAdFooterView.swift",
-      "kind": "StringLiteral",
-      "offset": 1238,
-      "length": 11,
-      "value": "\"adChoices\""
-    },
-    {
-      "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/AdFooter\/Views\/OWIAUAdFooterView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1713,
+      "offset": 1855,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/AdFooter\/Views\/OWIAUAdFooterView.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 2082,
       "length": 11,
       "value": "\"Sponsored\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/AdFooter\/Views\/OWIAUAdFooterView.swift",
       "kind": "StringLiteral",
-      "offset": 1962,
+      "offset": 2104,
       "length": 2,
       "value": "\"\""
     },
