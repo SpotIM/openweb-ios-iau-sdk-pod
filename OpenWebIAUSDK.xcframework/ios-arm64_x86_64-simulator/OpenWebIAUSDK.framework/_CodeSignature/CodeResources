@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZaKk4X2WDjehwvAHi2vjw/svVTc=
+		rzoO0/tCwDstrQOXafDFjkDv7AQ=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rE2F0Q89g5PCnYMjX5dNx8KqQZo=
+		oPMgE7ETMkJxfaua+cRIhUyhWWc=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LH+WKzJcZOP5GD5GRYvfk1ae+pc=
+		bbQ5CG09iGry41J/anawNTb9Gj0=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LH+WKzJcZOP5GD5GRYvfk1ae+pc=
+		bbQ5CG09iGry41J/anawNTb9Gj0=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P00HaVQe6/tn3iKkbjgq+vxy5MQ=
+		+Wep2cE9NdIQvvgG6vWHvMkpC88=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rE2F0Q89g5PCnYMjX5dNx8KqQZo=
+		oPMgE7ETMkJxfaua+cRIhUyhWWc=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		epkMKb7w3t/VBEXZQLgKQD5PoPY=
+		XEQyOO7lbDTlvWlYky26xC8ytMI=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		epkMKb7w3t/VBEXZQLgKQD5PoPY=
+		XEQyOO7lbDTlvWlYky26xC8ytMI=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		v5a7p6Zp4yIPI+43t8wB3hMmowU=
+		jFUGVMSz1ymGvKurPMNj4Hldapw=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -94,22 +94,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rE2F0Q89g5PCnYMjX5dNx8KqQZo=
+			oPMgE7ETMkJxfaua+cRIhUyhWWc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cuXfiS6HUFozMRkdBukui3A6hHToCv+yBoAQyvUApKg=
+			ATl9PQUcpRgfpvKchg5RygkHDH6B0FqheL0kUg3QTTo=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LH+WKzJcZOP5GD5GRYvfk1ae+pc=
+			bbQ5CG09iGry41J/anawNTb9Gj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			yXnOB+Sv1NOxRxcPj5aUkKJi8JtqrwWLzSeAIUJ2F3k=
+			V2fAElMUhja9IVNoSYbcIkBHf/kuhTGD8qTHpBRepis=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -127,44 +127,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LH+WKzJcZOP5GD5GRYvfk1ae+pc=
+			bbQ5CG09iGry41J/anawNTb9Gj0=
 			</data>
 			<key>hash2</key>
 			<data>
-			yXnOB+Sv1NOxRxcPj5aUkKJi8JtqrwWLzSeAIUJ2F3k=
+			V2fAElMUhja9IVNoSYbcIkBHf/kuhTGD8qTHpBRepis=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P00HaVQe6/tn3iKkbjgq+vxy5MQ=
+			+Wep2cE9NdIQvvgG6vWHvMkpC88=
 			</data>
 			<key>hash2</key>
 			<data>
-			p3wxRWqMUScEvmeZZQZxTI4cCuyizxq4kRxjmtp8bxM=
+			LpMPWJFKf26KcoqjA4AGb82hJa9JSRIZz3VdUmKnGFU=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rE2F0Q89g5PCnYMjX5dNx8KqQZo=
+			oPMgE7ETMkJxfaua+cRIhUyhWWc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cuXfiS6HUFozMRkdBukui3A6hHToCv+yBoAQyvUApKg=
+			ATl9PQUcpRgfpvKchg5RygkHDH6B0FqheL0kUg3QTTo=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			epkMKb7w3t/VBEXZQLgKQD5PoPY=
+			XEQyOO7lbDTlvWlYky26xC8ytMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NbOhwBYNmRbp6VIc7LACgWIlB4qJWrWLQZGIj1eWJWg=
+			XlwL9BrHPfGiM42d/QmCFcHqKqxpplarAXN3CCAgxaY=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -182,22 +182,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			epkMKb7w3t/VBEXZQLgKQD5PoPY=
+			XEQyOO7lbDTlvWlYky26xC8ytMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			NbOhwBYNmRbp6VIc7LACgWIlB4qJWrWLQZGIj1eWJWg=
+			XlwL9BrHPfGiM42d/QmCFcHqKqxpplarAXN3CCAgxaY=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v5a7p6Zp4yIPI+43t8wB3hMmowU=
+			jFUGVMSz1ymGvKurPMNj4Hldapw=
 			</data>
 			<key>hash2</key>
 			<data>
-			rqpqhhwxUJGTg+XvE/Xn2OL834BSkxzVoFd0URGsGvI=
+			M31ZTI5NwkNK6bH1YY3smSKhEc1geeh1gCwgtMy6TGU=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>

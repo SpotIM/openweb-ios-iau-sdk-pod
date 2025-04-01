@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "OpenWebIAUSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4708,6 +4718,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpenWebIAUSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4749,6 +4766,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpenWebIAUSDK"
       },
       {
         "kind": "Import",
@@ -5607,23 +5631,6 @@
       },
       {
         "kind": "Import",
-        "name": "CryptoKit",
-        "printedName": "CryptoKit",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6024,14 +6031,14 @@
       "kind": "StringLiteral",
       "offset": 118,
       "length": 7,
-      "value": "\"2.1.1\""
+      "value": "\"2.1.2\""
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Generated\/Versions.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
       "length": 2,
-      "value": "52"
+      "value": "53"
     },
     {
       "filePath": "\/Users\/alonshprung\/Work\/OpenWeb\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusDisplayAd.swift",
