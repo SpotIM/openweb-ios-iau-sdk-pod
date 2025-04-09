@@ -27,7 +27,7 @@ jobs:
           GH_TOKEN: ${{ secrets.OPENWEB_USER_TOKEN }}
         run: |
           gh pr create \
-            --base master \
+            --base main \
             --head "$BRANCH_NAME" \
             --title "Release: $SDK_VERSION" \
             --body "This PR is automatically created for SDK release version $SDK_VERSION."
