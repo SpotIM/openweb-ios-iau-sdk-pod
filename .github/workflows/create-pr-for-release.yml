@@ -1,0 +1,33 @@
+name: Create PR for SDK Release
+
+on:
+  push:
+    branches:
+      - "release/sdk/*"
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract Branch Name
+        run: echo "BRANCH_NAME=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+
+      - name: Extract Version from Branch Name
+        run: echo "SDK_VERSION=${BRANCH_NAME##release/sdk/}" >> $GITHUB_ENV
+
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.OPENWEB_USER_TOKEN }}
+        run: |
+          gh pr create \
+            --base master \
+            --head "$BRANCH_NAME" \
+            --title "Release: $SDK_VERSION" \
+            --body "This PR is automatically created for SDK release version $SDK_VERSION."
