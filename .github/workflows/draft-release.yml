@@ -1,0 +1,33 @@
+name: Prepare SDK Release
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  prepare-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    # Ensure it only runs when PR is merged and from "release/sdk/*" branch
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'release/sdk/')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract Version from Branch Name
+        run: echo "SDK_VERSION=${{ github.event.pull_request.head.ref }}" | sed 's|release/sdk/||' >> $GITHUB_ENV
+
+      - name: Prepare Draft GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.OPENWEB_USER_TOKEN }}
+        run: |
+          gh release create "$SDK_VERSION" \
+            --title "Version $SDK_VERSION" \
+            --notes "TODO fill in the body. (Generated via CI - prepare-release job)" \
+            --draft
