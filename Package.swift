@@ -10,13 +10,13 @@ func createProducts() -> [Product] {
     return products
 }
 
-func createDependencies() -> [Dependency] {
+func createDependencies() -> [Package.Dependency] {
     return [
         .package(url: "https://github.com/Aniview/ad-player-sdk-ios-spm", .upToNextMinor(from: "1.13.4")),
-        .package(url: "https://github.com/PubMatic/OpenWrapSDK-Swift-Package", .exact("3.6.0")),
-        .package(url: "https://github.com/PubMatic/OpenWrapHandlerDFP-Swift-Package", .exact("5.0.0")),
+        .package(url: "https://github.com/PubMatic/OpenWrapSDK-Swift-Package", .upToNextMinor(from: "4.5.0")),
+        .package(url: "https://github.com/PubMatic/OpenWrapHandlerDFP-Swift-Package", .upToNextMinor(from: "5.2.0")),
         .package(url: "https://github.com/GeoEdgeSDK/AppHarbrSDK", .upToNextMinor(from: "1.14.0")),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", .upToNextMinor(from: "11.5.0")),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", .upToNextMinor(from: "11.7.0")),
         .package(url: "https://github.com/adsbynimbus/nimbus-ios-sdk", .upToNextMinor(from: "2.25.3")),
         .package(url: "https://github.com/SpotIM/openweb-ios-common-sdk-pod", .upToNextMinor(from: "1.0.0"))
     ]
@@ -44,19 +44,19 @@ func createTargets() -> [Target] {
         name: owIAUWrapperTarget,
         dependencies: [
 						// xcframeworks
-            .target(name: "OpenWebIAU", condition: .when(platforms: .some([.iOS])))
-						.target(name: "KmmSpotimStandaloneAd", condition: .when(platforms: .some([.iOS])))
+            .target(name: "OpenWebIAU", condition: .when(platforms: .some([.iOS]))),
+						.target(name: "KmmSpotimStandaloneAd", condition: .when(platforms: .some([.iOS]))),
 
 						// dependencies
-						.product(name: "AdPlayerSDK", package: "AdPlayerSDK"),
-        		.product(name: "OpenWrapSDK", package: "OpenWrapSDK"),
-        		.product(name: "OpenWrapHandlerDFP", package: "OpenWrapHandlerDFP"),
+						.product(name: "AdPlayerSDK", package: "ad-player-sdk-ios-spm"),
+        		.product(name: "OpenWrapSDK", package: "OpenWrapSDK-Swift-Package"),
+        		.product(name: "OpenWrapHandlerDFP", package: "OpenWrapHandlerDFP-Swift-Package"),
         		.product(name: "AppHarbrSDK", package: "AppHarbrSDK"),
-        		.product(name: "GoogleMobileAds", package: "GoogleMobileAds"),
-        		.product(name: "NimbusKit", package: "NimbusSDK"),
-        		.product(name: "NimbusRenderStaticKit", package: "NimbusSDK"),
-        		.product(name: "NimbusGAMKit", package: "NimbusSDK"),
-        		.product(name: "OpenWebCommon", package: "OpenWebCommon")
+        		.product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
+        		.product(name: "NimbusKit", package: "nimbus-ios-sdk"),
+        		.product(name: "NimbusRenderStaticKit", package: "nimbus-ios-sdk"),
+        		.product(name: "NimbusGAMKit", package: "nimbus-ios-sdk"),
+        		.product(name: "OpenWebCommon", package: "openweb-ios-common-sdk-pod")
         ],
         path: owIAUWrapperTarget
     )
