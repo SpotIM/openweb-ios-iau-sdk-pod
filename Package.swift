@@ -28,7 +28,7 @@ func createTargets() -> [Target] {
     // Adding OpenWebIAUSDK xcframework
     let OpenWebIAUSDK: Target = .binaryTarget(
         name: owIAUSDK,
-        path: "OpenWebIAUSDK.xcframework"
+        path: "OpenWebIAUSDKSPM.xcframework"
     )
     targets.append(OpenWebIAUSDK)
 
@@ -39,18 +39,6 @@ func createTargets() -> [Target] {
     )
     targets.append(KmmSpotimStandaloneAd)
 
-		// Adding KmmSpotimStandaloneAd xcframework
-    let nimbusSDKWrapperTarget: Target = .target(
-        name: "NimbusSDK",
-				dependencies: [
-        	.product(name: "NimbusKit", package: "nimbus-ios-sdk"),
-          .product(name: "NimbusGAMKit", package: "nimbus-ios-sdk"),
-          .product(name: "NimbusRenderStaticKit", package: "nimbus-ios-sdk")
-				],
-        path: "NimbusSDKWrapperTarget"
-    )
-    targets.append(nimbusSDKWrapperTarget)
-
     // Adding a "wrapper" target which all xcframeworks are "dependencies" to this one
     let wrapperTarget: Target = .target(
         name: owIAUWrapperTarget,
@@ -58,7 +46,6 @@ func createTargets() -> [Target] {
 						// xcframeworks
             .target(name: "OpenWebIAU", condition: .when(platforms: .some([.iOS]))),
 						.target(name: "KmmSpotimStandaloneAd", condition: .when(platforms: .some([.iOS]))),
-						.target(name: "NimbusSDK", condition: .when(platforms: .some([.iOS]))),
 
 						// dependencies
 						.product(name: "AdPlayerSDK", package: "ad-player-sdk-ios-spm"),
@@ -66,7 +53,10 @@ func createTargets() -> [Target] {
         		.product(name: "OpenWrapHandlerDFP", package: "OpenWrapHandlerDFP-Swift-Package"),
         		.product(name: "AppHarbrSDK", package: "AppHarbrSDK"),
         		.product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
-        		.product(name: "OpenWebCommon", package: "openweb-ios-common-sdk-pod")
+        		.product(name: "OpenWebCommon", package: "openweb-ios-common-sdk-pod"),
+            .product(name: "NimbusKit", package: "nimbus-ios-sdk"),
+            .product(name: "NimbusGAMKit", package: "nimbus-ios-sdk"),
+            .product(name: "NimbusRenderStaticKit", package: "nimbus-ios-sdk")
         ],
         path: owIAUWrapperTarget
     )

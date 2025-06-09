@@ -1,0 +1,160 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OpenWebIAUSDK
+import AdPlayerSDK
+import AppHarbrSDK
+import AppTrackingTransparency
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import GoogleMobileAds
+import KmmSpotimStandaloneAd
+import NimbusRenderStaticKit
+@_exported import OpenWebCommon
+import OpenWrapHandlerDFP
+import OpenWrapSDK
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+public let sdkVersionName: Swift.String
+public struct OWIAUAnalyticAdditionalInfo : OpenWebIAUSDK.OWIAUAnalyticAdditionalInfoProtocol {
+  public var customBIData: OpenWebIAUSDK.OWIAUCustomBIData
+  public init(customBIData: OpenWebIAUSDK.OWIAUCustomBIData = [:])
+}
+public struct OWIAUSettings : OpenWebCommon.OWIAUSettingsProtocol {
+  public var storeURL: Swift.String?
+  public init(storeURL: Swift.String? = nil)
+}
+public struct OWIAUSettingsBuilder {
+  public var storeURL: Swift.String?
+  public init(storeURL: Swift.String? = nil)
+  @discardableResult
+  public mutating func storeURL(_ storeURL: Swift.String?) -> OpenWebIAUSDK.OWIAUSettingsBuilder
+  public func build() -> any OpenWebCommon.OWIAUSettingsProtocol
+}
+public enum OWIAUMpvType {
+  case mpv
+  case mpv2
+  public static func == (a: OpenWebIAUSDK.OWIAUMpvType, b: OpenWebIAUSDK.OWIAUMpvType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum OWIAURequestMethod : Swift.String {
+  case delete
+  case get
+  case patch
+  case post
+  case put
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum OWIAUBIAnalyticEvent : Swift.String {
+  case generalSdkLoaded
+  case generalCampaignConfigsFetched
+  case generalEngineMonetizationLoad
+  case generalMonetizedPageView
+  case generalMonetizedPageViewDelayed
+  case dfpEngineWillInitialize
+  case dfpSlotRequested
+  case dfpEmpty
+  case dfpImpressionViewable
+  case dfpSlotResponseReceived
+  case dfpSlotOnLoad
+  case dfpSlotRenderEnded
+  case dfpInitialLoadDisabled
+  case aniviewEngineWillInitialize
+  case aniviewAdClickThroughVideo
+  case aniviewEngineDone
+  case aniviewEngineClosed
+  case aniviewAdInventoryVideo
+  case aniviewContentClicked
+  case aniviewContentCompleted
+  case aniviewContentImpression
+  case aniviewEngineError
+  case aniviewEngineImpression
+  case aniviewEngineInitializeError
+  case aniviewEngineInitialized
+  case aniviewImpressionViewable
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol OWIAUAnalyticAdditionalInfoProtocol {
+  var customBIData: OpenWebIAUSDK.OWIAUCustomBIData { get }
+}
+public protocol OWIAUAnalytics {
+  var customBIData: OpenWebIAUSDK.OWIAUCustomBIData { get set }
+  func addBICallback(_ callback: @escaping OpenWebIAUSDK.OWIAUAnalyticEventCallback)
+}
+public protocol OWIAUGdprProtocol {
+  func setGdprRequired(required: Swift.Bool)
+  func setGdprConsent(consent: Swift.String)
+}
+public protocol OWIAUHelpers {
+  var isNimbusAvailable: Swift.Bool { get }
+  var gdpr: any OpenWebIAUSDK.OWIAUGdprProtocol { get }
+  func getIAUProvider() -> any OpenWebCommon.OWIAUProviding
+}
+public protocol OWIAUManagerProtocol {
+  var spotId: OpenWebCommon.OWSpotId { get set }
+  var ui: any OpenWebIAUSDK.OWIAUUI { get }
+  var analytics: any OpenWebIAUSDK.OWIAUAnalytics { get }
+  var settings: any OpenWebCommon.OWIAUSettingsProtocol { get set }
+  var helpers: any OpenWebIAUSDK.OWIAUHelpers { get }
+}
+public protocol OWIAUUI {
+  func ad(postId: OpenWebCommon.OWPostId, settings: any OpenWebCommon.OWIAUAdSettingsProtocol, viewEventCallbacks: OpenWebCommon.OWIAUAdViewEventsCallbacks?, actionsCallbacks: OpenWebCommon.OWIAUAdViewActionsCallbacks?, completion: @escaping OpenWebCommon.OWIAUViewCompletion)
+}
+public typealias OWIAUAnalyticEventCallback = (_ event: OpenWebIAUSDK.OWIAUBIAnalyticEvent, _ additionalInfo: any OpenWebIAUSDK.OWIAUAnalyticAdditionalInfoProtocol, _ postId: OpenWebCommon.OWPostId?) -> Swift.Void
+public typealias OWIAUCustomBIData = [Swift.String : any Swift.Decodable & Swift.Encodable]
+public typealias OWIAUDefaultCompletion = (Swift.Result<Swift.Void, OpenWebCommon.OWIAUError>) -> Swift.Void
+@_hasMissingDesignatedInitializers public class OpenWebIAU {
+  public static let manager: any OpenWebIAUSDK.OWIAUManagerProtocol
+  @objc deinit
+}
+public enum OWIAULogLevel {
+  case none, error, medium, verbose
+  public static func == (a: OpenWebIAUSDK.OWIAULogLevel, b: OpenWebIAUSDK.OWIAULogLevel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum OWIAULogMethod : Swift.Hashable {
+  case nsLog, osLog
+  public static func == (a: OpenWebIAUSDK.OWIAULogMethod, b: OpenWebIAUSDK.OWIAULogMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class OWIAUCodableHelper {
+  @objc deinit
+}
+public struct OWIAUThrowable<T> : Swift.Decodable where T : Swift.Decodable {
+  public let result: Swift.Result<T, any Swift.Error>
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension OpenWebIAUSDK.OWIAUMpvType : Swift.Equatable {}
+extension OpenWebIAUSDK.OWIAUMpvType : Swift.Hashable {}
+extension OpenWebIAUSDK.OWIAURequestMethod : Swift.Equatable {}
+extension OpenWebIAUSDK.OWIAURequestMethod : Swift.Hashable {}
+extension OpenWebIAUSDK.OWIAURequestMethod : Swift.RawRepresentable {}
+extension OpenWebIAUSDK.OWIAUBIAnalyticEvent : Swift.Equatable {}
+extension OpenWebIAUSDK.OWIAUBIAnalyticEvent : Swift.Hashable {}
+extension OpenWebIAUSDK.OWIAUBIAnalyticEvent : Swift.RawRepresentable {}
+extension OpenWebIAUSDK.OWIAULogLevel : Swift.Equatable {}
+extension OpenWebIAUSDK.OWIAULogLevel : Swift.Hashable {}
