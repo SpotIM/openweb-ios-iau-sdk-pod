@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class KSSASpotImAdsDebugSharedIos, KSSASpotImAdsSharedIos, KSSACampaignIdentifier, KSSASpotImAnalyticsInfo, KSSAAdUnitSetupDisplay, KSSAAdCampaignDisplay, KSSAAdUnitSetupVideo, KSSAAdCampaignVideo, KSSAAdSetup, KSSAAdUnitDisplayProviderNimbusPriceGranularity, KSSAAdUnitDisplayProviderNimbus, KSSAAdUnitDisplayProviderOpenWrap, KSSAAdUnitSize, KSSADisplayAutoRefresh, KSSAKotlinThrowable, KSSAKotlinPair<__covariant A, __covariant B>, KSSAAvResult<__covariant T>, KSSAKMPublisherProvidedId, KSSAKotlinEnumCompanion, KSSAKotlinEnum<E>, KSSAKMDisplayAdStatus, KSSAKotlinArray<T>, KSSADisplayAdLoadInfo, KSSAAvStateFlow<T>, KSSAContentEvents, KSSAAvSharedFlow<T>, KSSAKMDuration, KSSAKMAdPlacementViewModelFactory, KSSAContentEventsDisplay, KSSAContentEventsDisplayClickThrough, KSSAContentEventsDisplayClosed, KSSAContentEventsDisplayError, KSSAContentEventsDisplayImpression, KSSAContentEventsDisplayInventory, KSSAContentEventsDisplaySourceLoaded, KSSAContentEventsDisplayViewableImpression, KSSAContentEventsVideo, KSSAContentEventsVideoAdPaused, KSSAContentEventsVideoClickThrough, KSSAContentEventsVideoClosed, KSSAContentEventsVideoError, KSSAContentEventsVideoFullScreenToggleRequested, KSSAContentEventsVideoGeneric, KSSAContentEventsVideoImpression, KSSAContentEventsVideoInventory, KSSAContentEventsVideoMovedFromFullscreen, KSSAContentEventsVideoMovedToFullscreen, KSSAVideoProgress, KSSAContentEventsVideoProgress, KSSAContentEventsVideoSkippableStateChange, KSSAContentEventsVideoSourceLoaded, KSSAContentEventsVideoVideoAdServerCalled, KSSAContentEventsVideoViewableImpression, KSSAKMPlacementDisplayContentDisplay, KSSAKMPlacementDisplayContentEmpty, KSSAKMPlacementDisplayContentVideo, KSSAKotlinUnit, KSSAAvResultFailure<__covariant T>, KSSAAvResultSuccess<__covariant T>, KSSAKMAniviewTagStateHaveNoVideo, KSSAKMAniviewTagStateHaveVideo, KSSAKotlinException, KSSAKotlinRuntimeException, KSSAKotlinIllegalStateException, KSSAKotlinCancellationException;
+@class KSSASpotImAdsDebugSharedIos, KSSASpotImAdsSharedIos, KSSAConfigForIOS, KSSAAvStateFlow<T>, KSSACampaignIdentifier, KSSASpotImAnalyticsInfo, KSSAAdUnitSetupDisplay, KSSAAdCampaignDisplay, KSSAAdUnitSetupVideo, KSSAAdCampaignVideo, KSSAInCommentFeatures, KSSAAdFeatures, KSSAAdHeightMode, KSSAAdHeightModeDynamic, KSSAAdHeightModeFixed, KSSAAdSetup, KSSAAdUnitDisplayProviderNimbusPriceGranularity, KSSAAdUnitDisplayProviderNimbus, KSSAAdUnitDisplayProviderOpenWrap, KSSAAdUnitSize, KSSADisplayAutoRefresh, KSSACampaignData, KSSACampaignType, KSSACampaignTypeDisplay, KSSACampaignTypeVideo, KSSACampainDataForIos, KSSAKMComponentTypeCompanion, KSSAKMComponentTypeInCommentAddOn, KSSAKMComponentTypeInConversation, KSSAKMComponentTypeIndependentAd, KSSAKotlinThrowable, KSSAKotlinPair<__covariant A, __covariant B>, KSSAAvResult<__covariant T>, KSSAKMPublisherProvidedId, KSSAKotlinEnumCompanion, KSSAKotlinEnum<E>, KSSAKMDisplayAdStatus, KSSAKotlinArray<T>, KSSADisplayAdLoadInfo, KSSAContentEvents, KSSAAvSharedFlow<T>, KSSAKMDuration, KSSAKMAdPlacementViewModelFactory, KSSAContentEventsDisplay, KSSAContentEventsDisplayClickThrough, KSSAContentEventsDisplayClosed, KSSAContentEventsDisplayError, KSSAContentEventsDisplayImpression, KSSAContentEventsDisplayInventory, KSSAContentEventsDisplaySourceLoaded, KSSAContentEventsDisplayViewableImpression, KSSAContentEventsVideo, KSSAContentEventsVideoAdPaused, KSSAContentEventsVideoClickThrough, KSSAContentEventsVideoClosed, KSSAContentEventsVideoError, KSSAContentEventsVideoFullScreenToggleRequested, KSSAContentEventsVideoGeneric, KSSAContentEventsVideoImpression, KSSAContentEventsVideoInventory, KSSAContentEventsVideoMovedFromFullscreen, KSSAContentEventsVideoMovedToFullscreen, KSSAVideoProgress, KSSAContentEventsVideoProgress, KSSAContentEventsVideoSkippableStateChange, KSSAContentEventsVideoSourceLoaded, KSSAContentEventsVideoVideoAdServerCalled, KSSAContentEventsVideoViewableImpression, KSSAKMPlacementDisplayContentDisplay, KSSAKMPlacementDisplayContentEmpty, KSSAKMPlacementDisplayContentVideo, KSSAKotlinUnit, KSSAAvResultFailure<__covariant T>, KSSAAvResultSuccess<__covariant T>, KSSAKMAniviewTagStateHaveNoVideo, KSSAKMAniviewTagStateHaveVideo, KSSAKotlinException, KSSAKotlinRuntimeException, KSSAKotlinIllegalStateException, KSSAKotlinCancellationException;
 
-@protocol KSSAPlayerIosProviding, KSSATagsIosProviding, KSSADisplayAdsSourceFactory, KSSAKMCrashReportProvider, KSSAKMGeoEdgeInitializer, KSSAAdCampaign, KSSAKotlinSequence, KSSAAdUnitDisplayProvider, KSSAAdUnitSetup, KSSAAniviewTag, KSSAKotlinx_coroutines_coreSharedFlow, KSSAKotlinx_coroutines_coreStateFlow, KSSAKotlinComparable, KSSADisplayAd, KSSADisplayAdsSource, KSSAKMPlacementDisplayContent, KSSAAdPlacementViewModel, KSSAKotlinx_coroutines_coreFlowCollector, KSSAKotlinx_coroutines_coreFlow, KSSAKotlinx_coroutines_coreMutableSharedFlow, KSSAKotlinx_coroutines_coreJob, KSSAKotlinx_coroutines_coreMutableStateFlow, KSSAKMAniviewTagState, KSSAKotlinIterator, KSSAKotlinx_coroutines_coreChildHandle, KSSAKotlinx_coroutines_coreChildJob, KSSAKotlinx_coroutines_coreDisposableHandle, KSSAKotlinx_coroutines_coreSelectClause0, KSSAKotlinCoroutineContextKey, KSSAKotlinCoroutineContextElement, KSSAKotlinCoroutineContext, KSSAKotlinx_coroutines_coreParentJob, KSSAKotlinx_coroutines_coreSelectInstance, KSSAKotlinx_coroutines_coreSelectClause;
+@protocol KSSAPlayerIosProviding, KSSATagsIosProviding, KSSADisplayAdsSourceFactory, KSSAKMCrashReportProvider, KSSAKMGeoEdgeInitializer, KSSAKMComponentType, KSSAAdCampaign, KSSAKotlinSequence, KSSAAdUnitDisplayProvider, KSSAAdUnitSetup, KSSAAniviewTag, KSSAKotlinx_coroutines_coreSharedFlow, KSSAKotlinx_coroutines_coreStateFlow, KSSAKotlinComparable, KSSADisplayAd, KSSADisplayAdsSource, KSSAKMPlacementDisplayContent, KSSAAdPlacementViewModel, KSSAKotlinx_coroutines_coreFlowCollector, KSSAKotlinx_coroutines_coreFlow, KSSAKotlinx_coroutines_coreMutableSharedFlow, KSSAKotlinx_coroutines_coreJob, KSSAKotlinx_coroutines_coreMutableStateFlow, KSSAKMAniviewTagState, KSSAKotlinIterator, KSSAKotlinx_coroutines_coreChildHandle, KSSAKotlinx_coroutines_coreChildJob, KSSAKotlinx_coroutines_coreDisposableHandle, KSSAKotlinx_coroutines_coreSelectClause0, KSSAKotlinCoroutineContextKey, KSSAKotlinCoroutineContextElement, KSSAKotlinCoroutineContext, KSSAKotlinx_coroutines_coreParentJob, KSSAKotlinx_coroutines_coreSelectInstance, KSSAKotlinx_coroutines_coreSelectClause;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -161,13 +161,15 @@ __attribute__((swift_name("SpotImAdsSharedIos")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)spotImAdsSharedIos __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KSSASpotImAdsSharedIos *shared __attribute__((swift_name("shared")));
+- (KSSAAvStateFlow<KSSAConfigForIOS *> *)getConfig __attribute__((swift_name("getConfig()")));
 - (void)initializeSpotId:(NSString *)spotId libraryVersionName:(NSString *)libraryVersionName player:(id<KSSAPlayerIosProviding>)player tagsProvider:(id<KSSATagsIosProviding>)tagsProvider displayAdsSourceFactory:(id<KSSADisplayAdsSourceFactory>)displayAdsSourceFactory crashReportProvider:(id<KSSAKMCrashReportProvider>)crashReportProvider geoEdgeInitializer:(id<KSSAKMGeoEdgeInitializer>)geoEdgeInitializer __attribute__((swift_name("initialize(spotId:libraryVersionName:player:tagsProvider:displayAdsSourceFactory:crashReportProvider:geoEdgeInitializer:)")));
-- (void)preloadSlotIdentifier:(KSSACampaignIdentifier *)identifier analyticsInfo:(KSSASpotImAnalyticsInfo * _Nullable)analyticsInfo __attribute__((swift_name("preloadSlot(identifier:analyticsInfo:)")));
+- (void)preloadSlotIdentifier:(KSSACampaignIdentifier *)identifier analyticsInfo:(KSSASpotImAnalyticsInfo * _Nullable)analyticsInfo component:(id<KSSAKMComponentType>)component __attribute__((swift_name("preloadSlot(identifier:analyticsInfo:component:)")));
 @end
 
 __attribute__((swift_name("AdCampaign")))
 @protocol KSSAAdCampaign
 @required
+@property (readonly) id<KSSAKMComponentType> component __attribute__((swift_name("component")));
 @property (readonly) KSSAAdUnitSetupDisplay * _Nullable displayAd __attribute__((swift_name("displayAd")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) KSSACampaignIdentifier *identifier __attribute__((swift_name("identifier")));
@@ -179,11 +181,12 @@ __attribute__((swift_name("AdCampaign")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdCampaignDisplay")))
 @interface KSSAAdCampaignDisplay : KSSABase <KSSAAdCampaign>
-- (instancetype)initWithId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay *)displayAd __attribute__((swift_name("init(id:type:identifier:isSticky:isTakeover:displayAd:)"))) __attribute__((objc_designated_initializer));
-- (KSSAAdCampaignDisplay *)doCopyId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay *)displayAd __attribute__((swift_name("doCopy(id:type:identifier:isSticky:isTakeover:displayAd:)")));
+- (instancetype)initWithId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier component:(id<KSSAKMComponentType>)component isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay *)displayAd __attribute__((swift_name("init(id:type:identifier:component:isSticky:isTakeover:displayAd:)"))) __attribute__((objc_designated_initializer));
+- (KSSAAdCampaignDisplay *)doCopyId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier component:(id<KSSAKMComponentType>)component isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay *)displayAd __attribute__((swift_name("doCopy(id:type:identifier:component:isSticky:isTakeover:displayAd:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KSSAKMComponentType> component __attribute__((swift_name("component")));
 @property (readonly) KSSAAdUnitSetupDisplay *displayAd __attribute__((swift_name("displayAd")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) KSSACampaignIdentifier *identifier __attribute__((swift_name("identifier")));
@@ -195,11 +198,12 @@ __attribute__((swift_name("AdCampaignDisplay")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdCampaignVideo")))
 @interface KSSAAdCampaignVideo : KSSABase <KSSAAdCampaign>
-- (instancetype)initWithId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay * _Nullable)displayAd videoAd:(KSSAAdUnitSetupVideo *)videoAd displayAdAfterVideo:(KSSAAdUnitSetupDisplay * _Nullable)displayAdAfterVideo __attribute__((swift_name("init(id:type:identifier:isSticky:isTakeover:displayAd:videoAd:displayAdAfterVideo:)"))) __attribute__((objc_designated_initializer));
-- (KSSAAdCampaignVideo *)doCopyId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay * _Nullable)displayAd videoAd:(KSSAAdUnitSetupVideo *)videoAd displayAdAfterVideo:(KSSAAdUnitSetupDisplay * _Nullable)displayAdAfterVideo __attribute__((swift_name("doCopy(id:type:identifier:isSticky:isTakeover:displayAd:videoAd:displayAdAfterVideo:)")));
+- (instancetype)initWithId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier component:(id<KSSAKMComponentType>)component isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay * _Nullable)displayAd videoAd:(KSSAAdUnitSetupVideo *)videoAd displayAdAfterVideo:(KSSAAdUnitSetupDisplay * _Nullable)displayAdAfterVideo __attribute__((swift_name("init(id:type:identifier:component:isSticky:isTakeover:displayAd:videoAd:displayAdAfterVideo:)"))) __attribute__((objc_designated_initializer));
+- (KSSAAdCampaignVideo *)doCopyId:(NSString *)id type:(NSString *)type identifier:(KSSACampaignIdentifier *)identifier component:(id<KSSAKMComponentType>)component isSticky:(BOOL)isSticky isTakeover:(BOOL)isTakeover displayAd:(KSSAAdUnitSetupDisplay * _Nullable)displayAd videoAd:(KSSAAdUnitSetupVideo *)videoAd displayAdAfterVideo:(KSSAAdUnitSetupDisplay * _Nullable)displayAdAfterVideo __attribute__((swift_name("doCopy(id:type:identifier:component:isSticky:isTakeover:displayAd:videoAd:displayAdAfterVideo:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KSSAKMComponentType> component __attribute__((swift_name("component")));
 @property (readonly) KSSAAdUnitSetupDisplay * _Nullable displayAd __attribute__((swift_name("displayAd")));
 @property (readonly) KSSAAdUnitSetupDisplay * _Nullable displayAdAfterVideo __attribute__((swift_name("displayAdAfterVideo")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
@@ -211,17 +215,57 @@ __attribute__((swift_name("AdCampaignVideo")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AdSetup")))
-@interface KSSAAdSetup : KSSABase
-- (instancetype)initWithSpotId:(NSString *)spotId monetizationId:(NSString *)monetizationId mcmNetworkId:(NSString *)mcmNetworkId sellerId:(NSString *)sellerId clientIp:(NSString *)clientIp campaigns:(NSArray<id<KSSAAdCampaign>> *)campaigns __attribute__((swift_name("init(spotId:monetizationId:mcmNetworkId:sellerId:clientIp:campaigns:)"))) __attribute__((objc_designated_initializer));
-- (KSSAAdSetup *)doCopySpotId:(NSString *)spotId monetizationId:(NSString *)monetizationId mcmNetworkId:(NSString *)mcmNetworkId sellerId:(NSString *)sellerId clientIp:(NSString *)clientIp campaigns:(NSArray<id<KSSAAdCampaign>> *)campaigns __attribute__((swift_name("doCopy(spotId:monetizationId:mcmNetworkId:sellerId:clientIp:campaigns:)")));
+__attribute__((swift_name("AdFeatures")))
+@interface KSSAAdFeatures : KSSABase
+- (instancetype)initWithInComment:(KSSAInCommentFeatures * _Nullable)inComment __attribute__((swift_name("init(inComment:)"))) __attribute__((objc_designated_initializer));
+- (KSSAAdFeatures *)doCopyInComment:(KSSAInCommentFeatures * _Nullable)inComment __attribute__((swift_name("doCopy(inComment:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (id<KSSAAdCampaign> _Nullable)getCampaignOrNullIdentifier:(KSSACampaignIdentifier *)identifier __attribute__((swift_name("getCampaignOrNull(identifier:)")));
-- (id<KSSAKotlinSequence>)getDisplayAds __attribute__((swift_name("getDisplayAds()")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<id<KSSAAdCampaign>> *campaigns __attribute__((swift_name("campaigns")));
+@property (readonly) KSSAInCommentFeatures * _Nullable inComment __attribute__((swift_name("inComment")));
+@end
+
+__attribute__((swift_name("KMAdHeightMode")))
+@interface KSSAAdHeightMode : KSSABase
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMAdHeightMode.KMAdHeightModeDynamic")))
+@interface KSSAAdHeightModeDynamic : KSSAAdHeightMode
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)dynamic __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSAAdHeightModeDynamic *shared __attribute__((swift_name("shared")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMAdHeightMode.KMAdHeightModeFixed")))
+@interface KSSAAdHeightModeFixed : KSSAAdHeightMode
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)fixed __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSAAdHeightModeFixed *shared __attribute__((swift_name("shared")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AdSetup")))
+@interface KSSAAdSetup : KSSABase
+- (instancetype)initWithSpotId:(NSString *)spotId monetizationId:(NSString *)monetizationId mcmNetworkId:(NSString *)mcmNetworkId sellerId:(NSString *)sellerId clientIp:(NSString *)clientIp features:(KSSAAdFeatures * _Nullable)features campaigns:(NSDictionary<id<KSSAKMComponentType>, NSArray<id<KSSAAdCampaign>> *> *)campaigns __attribute__((swift_name("init(spotId:monetizationId:mcmNetworkId:sellerId:clientIp:features:campaigns:)"))) __attribute__((objc_designated_initializer));
+- (KSSAAdSetup *)doCopySpotId:(NSString *)spotId monetizationId:(NSString *)monetizationId mcmNetworkId:(NSString *)mcmNetworkId sellerId:(NSString *)sellerId clientIp:(NSString *)clientIp features:(KSSAAdFeatures * _Nullable)features campaigns:(NSDictionary<id<KSSAKMComponentType>, NSArray<id<KSSAAdCampaign>> *> *)campaigns __attribute__((swift_name("doCopy(spotId:monetizationId:mcmNetworkId:sellerId:clientIp:features:campaigns:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (id<KSSAAdCampaign> _Nullable)getCampaignOrNullIdentifier:(KSSACampaignIdentifier *)identifier component:(id<KSSAKMComponentType>)component __attribute__((swift_name("getCampaignOrNull(identifier:component:)")));
+- (id<KSSAKotlinSequence>)getDisplayAdsComponent:(id<KSSAKMComponentType>)component __attribute__((swift_name("getDisplayAds(component:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDictionary<id<KSSAKMComponentType>, NSArray<id<KSSAAdCampaign>> *> *campaigns __attribute__((swift_name("campaigns")));
 @property (readonly) NSString *clientIp __attribute__((swift_name("clientIp")));
+@property (readonly) KSSAAdFeatures * _Nullable features __attribute__((swift_name("features")));
 @property (readonly) NSString *mcmNetworkId __attribute__((swift_name("mcmNetworkId")));
 @property (readonly) NSString *monetizationId __attribute__((swift_name("monetizationId")));
 @property (readonly) NSString *sellerId __attribute__((swift_name("sellerId")));
@@ -282,6 +326,7 @@ __attribute__((swift_name("AdUnitSetup")))
 @protocol KSSAAdUnitSetup
 @required
 @property (readonly) KSSACampaignIdentifier *campaignIdentifier __attribute__((swift_name("campaignIdentifier")));
+@property (readonly) id<KSSAKMComponentType> component __attribute__((swift_name("component")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) KSSAAdUnitSize * _Nullable size __attribute__((swift_name("size")));
 @property (readonly) NSString *type __attribute__((swift_name("type")));
@@ -290,19 +335,21 @@ __attribute__((swift_name("AdUnitSetup")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdUnitSetupDisplay")))
 @interface KSSAAdUnitSetupDisplay : KSSABase <KSSAAdUnitSetup>
-- (instancetype)initWithId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier provider:(id<KSSAAdUnitDisplayProvider>)provider sizes:(NSArray<KSSAAdUnitSize *> *)sizes iauSdkSpotId:(NSString *)iauSdkSpotId videoFloorPrice:(NSString * _Nullable)videoFloorPrice keyValues:(NSDictionary<NSString *, NSString *> *)keyValues autoRefresh:(KSSADisplayAutoRefresh *)autoRefresh intentIqEnabled:(BOOL)intentIqEnabled geoEdgeApiKey:(NSString *)geoEdgeApiKey geoEdgeEnabled:(BOOL)geoEdgeEnabled mpvVisibilityDelay:(int64_t)mpvVisibilityDelay guaranteedVisibilityTime:(id _Nullable)guaranteedVisibilityTime __attribute__((swift_name("init(id:type:size:campaignIdentifier:provider:sizes:iauSdkSpotId:videoFloorPrice:keyValues:autoRefresh:intentIqEnabled:geoEdgeApiKey:geoEdgeEnabled:mpvVisibilityDelay:guaranteedVisibilityTime:)"))) __attribute__((objc_designated_initializer));
-- (KSSAAdUnitSetupDisplay *)doCopyId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier provider:(id<KSSAAdUnitDisplayProvider>)provider sizes:(NSArray<KSSAAdUnitSize *> *)sizes iauSdkSpotId:(NSString *)iauSdkSpotId videoFloorPrice:(NSString * _Nullable)videoFloorPrice keyValues:(NSDictionary<NSString *, NSString *> *)keyValues autoRefresh:(KSSADisplayAutoRefresh *)autoRefresh intentIqEnabled:(BOOL)intentIqEnabled geoEdgeApiKey:(NSString *)geoEdgeApiKey geoEdgeEnabled:(BOOL)geoEdgeEnabled mpvVisibilityDelay:(int64_t)mpvVisibilityDelay guaranteedVisibilityTime:(id _Nullable)guaranteedVisibilityTime __attribute__((swift_name("doCopy(id:type:size:campaignIdentifier:provider:sizes:iauSdkSpotId:videoFloorPrice:keyValues:autoRefresh:intentIqEnabled:geoEdgeApiKey:geoEdgeEnabled:mpvVisibilityDelay:guaranteedVisibilityTime:)")));
+- (instancetype)initWithId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier component:(id<KSSAKMComponentType>)component provider:(id<KSSAAdUnitDisplayProvider>)provider sizes:(NSArray<KSSAAdUnitSize *> *)sizes iauSdkSpotId:(NSString *)iauSdkSpotId videoFloorPrice:(NSString * _Nullable)videoFloorPrice keyValues:(NSDictionary<NSString *, NSString *> *)keyValues autoRefresh:(KSSADisplayAutoRefresh *)autoRefresh intentIqEnabled:(BOOL)intentIqEnabled geoEdgeApiKey:(NSString *)geoEdgeApiKey geoEdgeEnabled:(BOOL)geoEdgeEnabled mpvVisibilityDelay:(int64_t)mpvVisibilityDelay guaranteedVisibilityTime:(id _Nullable)guaranteedVisibilityTime isAdHeightFixed:(KSSABoolean * _Nullable)isAdHeightFixed __attribute__((swift_name("init(id:type:size:campaignIdentifier:component:provider:sizes:iauSdkSpotId:videoFloorPrice:keyValues:autoRefresh:intentIqEnabled:geoEdgeApiKey:geoEdgeEnabled:mpvVisibilityDelay:guaranteedVisibilityTime:isAdHeightFixed:)"))) __attribute__((objc_designated_initializer));
+- (KSSAAdUnitSetupDisplay *)doCopyId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier component:(id<KSSAKMComponentType>)component provider:(id<KSSAAdUnitDisplayProvider>)provider sizes:(NSArray<KSSAAdUnitSize *> *)sizes iauSdkSpotId:(NSString *)iauSdkSpotId videoFloorPrice:(NSString * _Nullable)videoFloorPrice keyValues:(NSDictionary<NSString *, NSString *> *)keyValues autoRefresh:(KSSADisplayAutoRefresh *)autoRefresh intentIqEnabled:(BOOL)intentIqEnabled geoEdgeApiKey:(NSString *)geoEdgeApiKey geoEdgeEnabled:(BOOL)geoEdgeEnabled mpvVisibilityDelay:(int64_t)mpvVisibilityDelay guaranteedVisibilityTime:(id _Nullable)guaranteedVisibilityTime isAdHeightFixed:(KSSABoolean * _Nullable)isAdHeightFixed __attribute__((swift_name("doCopy(id:type:size:campaignIdentifier:component:provider:sizes:iauSdkSpotId:videoFloorPrice:keyValues:autoRefresh:intentIqEnabled:geoEdgeApiKey:geoEdgeEnabled:mpvVisibilityDelay:guaranteedVisibilityTime:isAdHeightFixed:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) KSSADisplayAutoRefresh *autoRefresh __attribute__((swift_name("autoRefresh")));
 @property (readonly) KSSACampaignIdentifier *campaignIdentifier __attribute__((swift_name("campaignIdentifier")));
+@property (readonly) id<KSSAKMComponentType> component __attribute__((swift_name("component")));
 @property (readonly) NSString *geoEdgeApiKey __attribute__((swift_name("geoEdgeApiKey")));
 @property (readonly) BOOL geoEdgeEnabled __attribute__((swift_name("geoEdgeEnabled")));
 @property (readonly) id _Nullable guaranteedVisibilityTime __attribute__((swift_name("guaranteedVisibilityTime")));
 @property (readonly) NSString *iauSdkSpotId __attribute__((swift_name("iauSdkSpotId")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) BOOL intentIqEnabled __attribute__((swift_name("intentIqEnabled")));
+@property (readonly) KSSABoolean * _Nullable isAdHeightFixed __attribute__((swift_name("isAdHeightFixed")));
 @property (readonly) NSDictionary<NSString *, NSString *> *keyValues __attribute__((swift_name("keyValues")));
 @property (readonly) int64_t mpvVisibilityDelay __attribute__((swift_name("mpvVisibilityDelay")));
 @property (readonly) id<KSSAAdUnitDisplayProvider> provider __attribute__((swift_name("provider")));
@@ -315,14 +362,16 @@ __attribute__((swift_name("AdUnitSetupDisplay")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AdUnitSetupVideo")))
 @interface KSSAAdUnitSetupVideo : KSSABase <KSSAAdUnitSetup>
-- (instancetype)initWithId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier publisherId:(NSString *)publisherId tagId:(NSString *)tagId channelId:(NSString *)channelId __attribute__((swift_name("init(id:type:size:campaignIdentifier:publisherId:tagId:channelId:)"))) __attribute__((objc_designated_initializer));
-- (KSSAAdUnitSetupVideo *)doCopyId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier publisherId:(NSString *)publisherId tagId:(NSString *)tagId channelId:(NSString *)channelId __attribute__((swift_name("doCopy(id:type:size:campaignIdentifier:publisherId:tagId:channelId:)")));
+- (instancetype)initWithId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier component:(id<KSSAKMComponentType>)component publisherId:(NSString *)publisherId tagId:(NSString *)tagId channelId:(NSString *)channelId isAdHeightFixed:(KSSABoolean * _Nullable)isAdHeightFixed __attribute__((swift_name("init(id:type:size:campaignIdentifier:component:publisherId:tagId:channelId:isAdHeightFixed:)"))) __attribute__((objc_designated_initializer));
+- (KSSAAdUnitSetupVideo *)doCopyId:(NSString *)id type:(NSString *)type size:(KSSAAdUnitSize * _Nullable)size campaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier component:(id<KSSAKMComponentType>)component publisherId:(NSString *)publisherId tagId:(NSString *)tagId channelId:(NSString *)channelId isAdHeightFixed:(KSSABoolean * _Nullable)isAdHeightFixed __attribute__((swift_name("doCopy(id:type:size:campaignIdentifier:component:publisherId:tagId:channelId:isAdHeightFixed:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) KSSACampaignIdentifier *campaignIdentifier __attribute__((swift_name("campaignIdentifier")));
 @property (readonly) NSString *channelId __attribute__((swift_name("channelId")));
+@property (readonly) id<KSSAKMComponentType> component __attribute__((swift_name("component")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) KSSABoolean * _Nullable isAdHeightFixed __attribute__((swift_name("isAdHeightFixed")));
 @property (readonly) NSString *publisherId __attribute__((swift_name("publisherId")));
 @property (readonly) KSSAAdUnitSize * _Nullable size __attribute__((swift_name("size")));
 @property (readonly) NSString *tagId __attribute__((swift_name("tagId")));
@@ -342,6 +391,18 @@ __attribute__((swift_name("AdUnitSize")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CampaignData")))
+@interface KSSACampaignData : KSSABase
+- (instancetype)initWithIdentifier:(KSSACampaignIdentifier * _Nullable)identifier component:(id<KSSAKMComponentType>)component __attribute__((swift_name("init(identifier:component:)"))) __attribute__((objc_designated_initializer));
+- (KSSACampaignData *)doCopyIdentifier:(KSSACampaignIdentifier * _Nullable)identifier component:(id<KSSAKMComponentType>)component __attribute__((swift_name("doCopy(identifier:component:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KSSAKMComponentType> component __attribute__((swift_name("component")));
+@property (readonly) KSSACampaignIdentifier * _Nullable identifier __attribute__((swift_name("identifier")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CampaignIdentifier")))
 @interface KSSACampaignIdentifier : KSSABase
 - (instancetype)initWithRow:(int32_t)row column:(int32_t)column __attribute__((swift_name("init(row:column:)"))) __attribute__((objc_designated_initializer));
@@ -351,6 +412,111 @@ __attribute__((swift_name("CampaignIdentifier")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t column __attribute__((swift_name("column")));
 @property (readonly) int32_t row __attribute__((swift_name("row")));
+@end
+
+__attribute__((swift_name("KMCampaignType")))
+@interface KSSACampaignType : KSSABase
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMCampaignType.KMCampaignTypeDisplay")))
+@interface KSSACampaignTypeDisplay : KSSACampaignType
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)display __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSACampaignTypeDisplay *shared __attribute__((swift_name("shared")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMCampaignType.KMCampaignTypeVideo")))
+@interface KSSACampaignTypeVideo : KSSACampaignType
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)video __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSACampaignTypeVideo *shared __attribute__((swift_name("shared")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMCampainDataForIos")))
+@interface KSSACampainDataForIos : KSSABase
+- (instancetype)initWithCampaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier adHeightMode:(KSSAAdHeightMode *)adHeightMode maxAdHeight:(KSSAInt * _Nullable)maxAdHeight campaignType:(KSSACampaignType *)campaignType __attribute__((swift_name("init(campaignIdentifier:adHeightMode:maxAdHeight:campaignType:)"))) __attribute__((objc_designated_initializer));
+- (KSSACampainDataForIos *)doCopyCampaignIdentifier:(KSSACampaignIdentifier *)campaignIdentifier adHeightMode:(KSSAAdHeightMode *)adHeightMode maxAdHeight:(KSSAInt * _Nullable)maxAdHeight campaignType:(KSSACampaignType *)campaignType __attribute__((swift_name("doCopy(campaignIdentifier:adHeightMode:maxAdHeight:campaignType:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KSSAAdHeightMode *adHeightMode __attribute__((swift_name("adHeightMode")));
+@property (readonly) KSSACampaignIdentifier *campaignIdentifier __attribute__((swift_name("campaignIdentifier")));
+@property (readonly) KSSACampaignType *campaignType __attribute__((swift_name("campaignType")));
+@property (readonly) KSSAInt * _Nullable maxAdHeight __attribute__((swift_name("maxAdHeight")));
+@end
+
+__attribute__((swift_name("KMComponentType")))
+@protocol KSSAKMComponentType
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMComponentTypeCompanion")))
+@interface KSSAKMComponentTypeCompanion : KSSABase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSAKMComponentTypeCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSArray<id<KSSAKMComponentType>> *values __attribute__((swift_name("values")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMComponentTypeInCommentAddOn")))
+@interface KSSAKMComponentTypeInCommentAddOn : KSSABase <KSSAKMComponentType>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)inCommentAddOn __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSAKMComponentTypeInCommentAddOn *shared __attribute__((swift_name("shared")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMComponentTypeInConversation")))
+@interface KSSAKMComponentTypeInConversation : KSSABase <KSSAKMComponentType>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)inConversation __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSAKMComponentTypeInConversation *shared __attribute__((swift_name("shared")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMComponentTypeIndependentAd")))
+@interface KSSAKMComponentTypeIndependentAd : KSSABase <KSSAKMComponentType>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)independentAd __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KSSAKMComponentTypeIndependentAd *shared __attribute__((swift_name("shared")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMConfigForIOS")))
+@interface KSSAConfigForIOS : KSSABase
+- (instancetype)initWithInCommentAdsFrequency:(KSSAInt * _Nullable)inCommentAdsFrequency componentToCampaignMap:(NSDictionary<id<KSSAKMComponentType>, NSArray<KSSACampainDataForIos *> *> *)componentToCampaignMap __attribute__((swift_name("init(inCommentAdsFrequency:componentToCampaignMap:)"))) __attribute__((objc_designated_initializer));
+- (KSSAConfigForIOS *)doCopyInCommentAdsFrequency:(KSSAInt * _Nullable)inCommentAdsFrequency componentToCampaignMap:(NSDictionary<id<KSSAKMComponentType>, NSArray<KSSACampainDataForIos *> *> *)componentToCampaignMap __attribute__((swift_name("doCopy(inCommentAdsFrequency:componentToCampaignMap:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDictionary<id<KSSAKMComponentType>, NSArray<KSSACampainDataForIos *> *> *componentToCampaignMap __attribute__((swift_name("componentToCampaignMap")));
+@property (readonly) KSSAInt * _Nullable inCommentAdsFrequency __attribute__((swift_name("inCommentAdsFrequency")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -364,6 +530,17 @@ __attribute__((swift_name("DisplayAutoRefresh")))
 @property (readonly) int32_t limit __attribute__((swift_name("limit")));
 @property (readonly) BOOL onlyWhenVisible __attribute__((swift_name("onlyWhenVisible")));
 @property (readonly) int64_t timeout __attribute__((swift_name("timeout")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("InCommentFeatures")))
+@interface KSSAInCommentFeatures : KSSABase
+- (instancetype)initWithAdsFrequency:(KSSAInt * _Nullable)adsFrequency __attribute__((swift_name("init(adsFrequency:)"))) __attribute__((objc_designated_initializer));
+- (KSSAInCommentFeatures *)doCopyAdsFrequency:(KSSAInt * _Nullable)adsFrequency __attribute__((swift_name("doCopy(adsFrequency:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KSSAInt * _Nullable adsFrequency __attribute__((swift_name("adsFrequency")));
 @end
 
 __attribute__((swift_name("KMCrashReportProvider")))
@@ -470,7 +647,7 @@ __attribute__((swift_name("KMAdPlacementViewModel")))
 - (void)sendMpvDelayedEvent __attribute__((swift_name("sendMpvDelayedEvent()")));
 - (void)sendMpvEvent __attribute__((swift_name("sendMpvEvent()")));
 - (void)setAnalyticsAdditionalInfoInfo:(KSSASpotImAnalyticsInfo *)info __attribute__((swift_name("setAnalyticsAdditionalInfo(info:)")));
-- (void)setCampaignIdentifierIdentifier:(KSSACampaignIdentifier * _Nullable)identifier __attribute__((swift_name("setCampaignIdentifier(identifier:)")));
+- (void)setCampaignDataCampaignData:(KSSACampaignData *)campaignData __attribute__((swift_name("setCampaignData(campaignData:)")));
 - (void)setScreenIdId:(NSString *)id __attribute__((swift_name("setScreenId(id:)")));
 - (void)setScreenResumedActive:(BOOL)active __attribute__((swift_name("setScreenResumed(active:)")));
 - (void)setViewAttachedAttached:(BOOL)attached __attribute__((swift_name("setViewAttached(attached:)")));

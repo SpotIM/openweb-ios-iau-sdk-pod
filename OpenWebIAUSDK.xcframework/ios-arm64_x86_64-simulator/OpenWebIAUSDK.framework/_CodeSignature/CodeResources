@@ -6,7 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		62ig9oFcNMXQxXHhdrpe/WCmsyY=
+		A1Tq/rIBDyut2wb1xLVlooZUVGI=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<data>
+		6n0qS09gM51hei9UkrAFraHGwdQ=
+		</data>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		VWCA3MeaiPMoOAS1uOteTSLX8js=
 		</data>
 		<key>Headers/SpotImStandaloneAds.h</key>
 		<data>
@@ -14,47 +22,115 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rzoO0/tCwDstrQOXafDFjkDv7AQ=
+		n+yOuOx9IPVWh0ypGglIaC3Ycfg=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oPMgE7ETMkJxfaua+cRIhUyhWWc=
+		/PZ22qLJyizkS4yFCqpP7BejA+c=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bbQ5CG09iGry41J/anawNTb9Gj0=
+		r2SUlslvjIg9vGLVa+GTFwIJHtM=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XYbZC5vwnebjDnp2z3poZIAkWlQ=
+		iP2FgsAwTQSCPzOC5arl3HnZfRU=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bbQ5CG09iGry41J/anawNTb9Gj0=
+		r2SUlslvjIg9vGLVa+GTFwIJHtM=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Wep2cE9NdIQvvgG6vWHvMkpC88=
+		fFrHltwwkZaThvSQLNP+SKa1aQ4=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oPMgE7ETMkJxfaua+cRIhUyhWWc=
+		/PZ22qLJyizkS4yFCqpP7BejA+c=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XEQyOO7lbDTlvWlYky26xC8ytMI=
+		scffNkZBopIFeGRYMDk0RqyfahY=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4Mjbr7+CsqhZ+8WFSHGv17m7xOM=
+		6cZJ35mj/vwL9TXJ8GjeI1rEdA8=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XEQyOO7lbDTlvWlYky26xC8ytMI=
+		scffNkZBopIFeGRYMDk0RqyfahY=
 		</data>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jFUGVMSz1ymGvKurPMNj4Hldapw=
+		l5OBGKsaQNoTUgsMzYgpV5rUdd4=
+		</data>
+		<key>OpenWrapSDKPrivacyManifest.bundle/Info.plist</key>
+		<data>
+		tZYBmWMNuWszKoIuuWAysF+chCg=
+		</data>
+		<key>OpenWrapSDKPrivacyManifest.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		ta4uhjomRLKl1my3BuYQdIjwzao=
+		</data>
+		<key>POBNativeResources.bundle/Info.plist</key>
+		<data>
+		+TpjNOeMBs1Ueb8M1su6f27FbM8=
+		</data>
+		<key>POBNativeResources.bundle/POBNativeAdMediumTemplateView.nib</key>
+		<data>
+		mLPXl3dxp1gEiqkfmcP/RxTNz9k=
+		</data>
+		<key>POBNativeResources.bundle/POBNativeAdSmallTemplateView.nib</key>
+		<data>
+		xPb5oUqOKQj1uRuEfKYYN7WKS4g=
+		</data>
+		<key>POBNativeResources.bundle/icon-ad@3x.png</key>
+		<data>
+		9rpbRQiD9/2CaSCNjOxIUGCmFyc=
+		</data>
+		<key>POBNativeResources.bundle/icon-secure@3x.png</key>
+		<data>
+		BuW/IlQYTYF96G5D7cwaI0SgQBc=
+		</data>
+		<key>POBResources.bundle/Info.plist</key>
+		<data>
+		9t6H8ss0ROD9ii+ad9EJeyrEK4o=
+		</data>
+		<key>POBResources.bundle/close.tiff</key>
+		<data>
+		LE82x6ewJGFgKNgJ/0IavwEyzCE=
+		</data>
+		<key>POBResources.bundle/forward.tiff</key>
+		<data>
+		0qL1zJpAL8il8/e4cU0lbHTCJXw=
+		</data>
+		<key>POBResources.bundle/mute.tiff</key>
+		<data>
+		5Ki+AgvHYegGrLkGZ5zL4nLeu5A=
+		</data>
+		<key>POBResources.bundle/omsdk-v1.js</key>
+		<data>
+		xFoo41tIvFKNNRq9NwW500wQtM8=
+		</data>
+		<key>POBResources.bundle/pmmraid.js</key>
+		<data>
+		MGFoLmH8A7/0UmZC7zvXUwXAXT4=
+		</data>
+		<key>POBResources.bundle/unmute.tiff</key>
+		<data>
+		IcaZoqIzpSrXlq5s0ddY6lGSD2k=
+		</data>
+		<key>SPM-Info.plist</key>
+		<data>
+		Wm5xVSwyoBikdsAx2xB4NY2y+0g=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<data>
+		hswnKYeGMVjYiDUx5bdCapt2MTA=
+		</data>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		k9OFlDPBRWfteJ+bfG12WAoBuls=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -72,11 +148,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			62ig9oFcNMXQxXHhdrpe/WCmsyY=
+			A1Tq/rIBDyut2wb1xLVlooZUVGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eZEGSTFiBMM4cDkGzj4hOgJHlNnK9AoGh9GwLeSnNrM=
+			lpzkcK0l8B3DElAvQonYne1/ANcED/IiPPwliIGkaSA=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6n0qS09gM51hei9UkrAFraHGwdQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			kzNFfMUh/MXLpO9hwD1LVvsui8NfVad2w7rpU96H4cU=
+			</data>
+		</dict>
+		<key>GoogleMobileAdsResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VWCA3MeaiPMoOAS1uOteTSLX8js=
+			</data>
+			<key>hash2</key>
+			<data>
+			afsRJYL8I/wGxjXJYdJio/e0tWVNKEeHSR3jAA2t+dI=
 			</data>
 		</dict>
 		<key>Headers/SpotImStandaloneAds.h</key>
@@ -94,110 +192,297 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oPMgE7ETMkJxfaua+cRIhUyhWWc=
+			/PZ22qLJyizkS4yFCqpP7BejA+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			ATl9PQUcpRgfpvKchg5RygkHDH6B0FqheL0kUg3QTTo=
+			zrSpgODZDBo/wjSJIWrKskPOtEaTGDGUqx9M9pc5K60=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bbQ5CG09iGry41J/anawNTb9Gj0=
+			r2SUlslvjIg9vGLVa+GTFwIJHtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			V2fAElMUhja9IVNoSYbcIkBHf/kuhTGD8qTHpBRepis=
+			6V8uiOZ/Z7Z5QPsRcljm70QRh/6G5bti66z5ePl7e/Q=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XYbZC5vwnebjDnp2z3poZIAkWlQ=
+			iP2FgsAwTQSCPzOC5arl3HnZfRU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QPWR8v606e5bkg2Hp6WVpdXOVWBNNnGEAKdwzt63uEw=
+			0kOewZZVpewiu29acWSarPnsVizAbuKTaI9j4ur9fpo=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bbQ5CG09iGry41J/anawNTb9Gj0=
+			r2SUlslvjIg9vGLVa+GTFwIJHtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			V2fAElMUhja9IVNoSYbcIkBHf/kuhTGD8qTHpBRepis=
+			6V8uiOZ/Z7Z5QPsRcljm70QRh/6G5bti66z5ePl7e/Q=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+Wep2cE9NdIQvvgG6vWHvMkpC88=
+			fFrHltwwkZaThvSQLNP+SKa1aQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			LpMPWJFKf26KcoqjA4AGb82hJa9JSRIZz3VdUmKnGFU=
+			QbQn85eQ8stlk4e0MKZ1Rrfw5DQazcpJonrCzLBH89w=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oPMgE7ETMkJxfaua+cRIhUyhWWc=
+			/PZ22qLJyizkS4yFCqpP7BejA+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			ATl9PQUcpRgfpvKchg5RygkHDH6B0FqheL0kUg3QTTo=
+			zrSpgODZDBo/wjSJIWrKskPOtEaTGDGUqx9M9pc5K60=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XEQyOO7lbDTlvWlYky26xC8ytMI=
+			scffNkZBopIFeGRYMDk0RqyfahY=
 			</data>
 			<key>hash2</key>
 			<data>
-			XlwL9BrHPfGiM42d/QmCFcHqKqxpplarAXN3CCAgxaY=
+			0DDs1aw4D8YU2zy9Ftfnhx7jDX3DzR+MfIo6TXkT71Y=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4Mjbr7+CsqhZ+8WFSHGv17m7xOM=
+			6cZJ35mj/vwL9TXJ8GjeI1rEdA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lZvA9fx+gGp2EF9WZ//duKrt25//fLfNKr6MaC1eD5Q=
+			q3qsuspXjqMO6HUd2hPS8QVVKs/+bXUpUiKWV0fypow=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XEQyOO7lbDTlvWlYky26xC8ytMI=
+			scffNkZBopIFeGRYMDk0RqyfahY=
 			</data>
 			<key>hash2</key>
 			<data>
-			XlwL9BrHPfGiM42d/QmCFcHqKqxpplarAXN3CCAgxaY=
+			0DDs1aw4D8YU2zy9Ftfnhx7jDX3DzR+MfIo6TXkT71Y=
 			</data>
 		</dict>
 		<key>Modules/OpenWebIAUSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jFUGVMSz1ymGvKurPMNj4Hldapw=
+			l5OBGKsaQNoTUgsMzYgpV5rUdd4=
 			</data>
 			<key>hash2</key>
 			<data>
-			M31ZTI5NwkNK6bH1YY3smSKhEc1geeh1gCwgtMy6TGU=
+			Y9+V4DewSFO5uRGKg6t+cUqUV3mPqrI8nGUDwps49z8=
+			</data>
+		</dict>
+		<key>OpenWrapSDKPrivacyManifest.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tZYBmWMNuWszKoIuuWAysF+chCg=
+			</data>
+			<key>hash2</key>
+			<data>
+			0YH/jrga1IHoL0wrTQnO0j4CuLWH7iSlCHC/8bjh6ek=
+			</data>
+		</dict>
+		<key>OpenWrapSDKPrivacyManifest.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ta4uhjomRLKl1my3BuYQdIjwzao=
+			</data>
+			<key>hash2</key>
+			<data>
+			MykGD4/97nvGjE8kCLrWApmnANTtehS74Qd7Y0LMYNM=
+			</data>
+		</dict>
+		<key>POBNativeResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+TpjNOeMBs1Ueb8M1su6f27FbM8=
+			</data>
+			<key>hash2</key>
+			<data>
+			cvFo4EhjW2Y7NFtUe8NyYovrMzwRdhGSyJDQhMOE/V8=
+			</data>
+		</dict>
+		<key>POBNativeResources.bundle/POBNativeAdMediumTemplateView.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mLPXl3dxp1gEiqkfmcP/RxTNz9k=
+			</data>
+			<key>hash2</key>
+			<data>
+			KuRbW8UnTA/Edir+UfOik0tMjvFtjSObrOJ3R3uY5D0=
+			</data>
+		</dict>
+		<key>POBNativeResources.bundle/POBNativeAdSmallTemplateView.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xPb5oUqOKQj1uRuEfKYYN7WKS4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			hICfNVm0R2C37gKNTK9dcUsRQ6ArjT0eHC7SGWirkJs=
+			</data>
+		</dict>
+		<key>POBNativeResources.bundle/icon-ad@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9rpbRQiD9/2CaSCNjOxIUGCmFyc=
+			</data>
+			<key>hash2</key>
+			<data>
+			1u5xePEeSVyU/VHf6QQqZ+bvRv3oLFddZWGDDhxVNhM=
+			</data>
+		</dict>
+		<key>POBNativeResources.bundle/icon-secure@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BuW/IlQYTYF96G5D7cwaI0SgQBc=
+			</data>
+			<key>hash2</key>
+			<data>
+			+D7wANegK7Jf3jlJ9MzNMLeQz4HaKyn2kB3FyDvdgOE=
+			</data>
+		</dict>
+		<key>POBResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9t6H8ss0ROD9ii+ad9EJeyrEK4o=
+			</data>
+			<key>hash2</key>
+			<data>
+			uTRomRklMLVyrj38vxp4wbQAuNL1BXiMrkNXfi3yylw=
+			</data>
+		</dict>
+		<key>POBResources.bundle/close.tiff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LE82x6ewJGFgKNgJ/0IavwEyzCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			3jY6gNZGobxlNS0jLuk+bi4r3kQydaPUfG06Tt0HEgY=
+			</data>
+		</dict>
+		<key>POBResources.bundle/forward.tiff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0qL1zJpAL8il8/e4cU0lbHTCJXw=
+			</data>
+			<key>hash2</key>
+			<data>
+			tDPKBGOCfzjsExFeCoUCp8mlSyjPsmm2Iejr4Q8G/9g=
+			</data>
+		</dict>
+		<key>POBResources.bundle/mute.tiff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5Ki+AgvHYegGrLkGZ5zL4nLeu5A=
+			</data>
+			<key>hash2</key>
+			<data>
+			XX3fww2BqEgzsr88omsBvaASV1LB6XYgb3jipl9mHXU=
+			</data>
+		</dict>
+		<key>POBResources.bundle/omsdk-v1.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xFoo41tIvFKNNRq9NwW500wQtM8=
+			</data>
+			<key>hash2</key>
+			<data>
+			iWz5BbK1YoGNpY4Z4ltSUIPxhjj2ubDXxq6kEamQdYU=
+			</data>
+		</dict>
+		<key>POBResources.bundle/pmmraid.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MGFoLmH8A7/0UmZC7zvXUwXAXT4=
+			</data>
+			<key>hash2</key>
+			<data>
+			fIFu7tRqDdgir1JY3oVXuAY3vqD4GAgAmf1llYkW/D4=
+			</data>
+		</dict>
+		<key>POBResources.bundle/unmute.tiff</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IcaZoqIzpSrXlq5s0ddY6lGSD2k=
+			</data>
+			<key>hash2</key>
+			<data>
+			QDcWyqSuz1uSyxSqQe90FIVEBR5QV/iDSK2DoiV0rHw=
+			</data>
+		</dict>
+		<key>SPM-Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wm5xVSwyoBikdsAx2xB4NY2y+0g=
+			</data>
+			<key>hash2</key>
+			<data>
+			06Mk3K+uRDrp8OcN5BZHmtE8I0jkmSzyvz0i6V6Rp2s=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hswnKYeGMVjYiDUx5bdCapt2MTA=
+			</data>
+			<key>hash2</key>
+			<data>
+			u7FDZdLDjH3ZlHiYhi3ePTymfpmYWrxMeZAqQoLYHHk=
+			</data>
+		</dict>
+		<key>UserMessagingPlatformResources.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k9OFlDPBRWfteJ+bfG12WAoBuls=
+			</data>
+			<key>hash2</key>
+			<data>
+			RbetuZ/NLZYqHIAPv8wTJbV6f6QWX0FhgjI7tf/pyQA=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
