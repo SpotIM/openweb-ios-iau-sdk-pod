@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
   s.dependency 'NimbusSDK/NimbusKit'
   s.dependency 'NimbusSDK/NimbusRenderStaticKit'
   s.dependency 'NimbusSDK/NimbusGAMKit'
-  s.dependency 'OpenWebCommon', '~> 1.1.0'
+  s.dependency 'OpenWebCommon', '~> 1.1.1'
 end
