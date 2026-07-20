@@ -236,8 +236,8 @@
       },
       {
         "kind": "Import",
-        "name": "AppHarbrSDK",
-        "printedName": "AppHarbrSDK",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "OpenWebIAUSDK",
         "declAttributes": [
@@ -248,13 +248,6 @@
         "kind": "Import",
         "name": "KmmSpotimStandaloneAd",
         "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "OpenWebIAUSDK"
       },
@@ -341,37 +334,6 @@
       },
       {
         "kind": "Import",
-        "name": "AppHarbrSDK",
-        "printedName": "AppHarbrSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "OpenWrapSDK",
-        "printedName": "OpenWrapSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "OpenWrapHandlerDFP",
-        "printedName": "OpenWrapHandlerDFP",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
         "name": "KmmSpotimStandaloneAd",
         "printedName": "KmmSpotimStandaloneAd",
         "declKind": "Import",
@@ -379,23 +341,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
       },
       {
         "kind": "Import",
@@ -443,37 +388,6 @@
       },
       {
         "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
         "name": "AppHarbrSDK",
         "printedName": "AppHarbrSDK",
         "declKind": "Import",
@@ -508,13 +422,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
       },
       {
         "kind": "Import",
@@ -624,19 +531,13 @@
       },
       {
         "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
         "name": "OpenWebCommon",
         "printedName": "OpenWebCommon",
         "declKind": "Import",
         "moduleName": "OpenWebIAUSDK",
         "declAttributes": [
-          "Exported"
+          "Exported",
+          "RawDocComment"
         ]
       },
       {
@@ -1485,23 +1386,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
       },
       {
         "kind": "Import",
@@ -4852,37 +4736,6 @@
       },
       {
         "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "KmmSpotimStandaloneAd",
-        "printedName": "KmmSpotimStandaloneAd",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "OpenWebCommon",
-        "printedName": "OpenWebCommon",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -5698,26 +5551,6 @@
       },
       {
         "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "KmmSpotimStandaloneAd",
         "printedName": "KmmSpotimStandaloneAd",
         "declKind": "Import",
@@ -5746,13 +5579,6 @@
       },
       {
         "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -5770,17 +5596,13 @@
       },
       {
         "kind": "Import",
-        "name": "AdPlayerSDK",
-        "printedName": "AdPlayerSDK",
-        "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
-        "moduleName": "OpenWebIAUSDK"
+        "moduleName": "OpenWebIAUSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6234,63 +6056,56 @@
       "kind": "StringLiteral",
       "offset": 118,
       "length": 7,
-      "value": "\"2.2.0\""
+      "value": "\"2.3.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Generated\/Versions.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
       "length": 2,
-      "value": "54"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 838,
-      "length": 1,
-      "value": "0"
+      "value": "55"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusDisplayAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 5359,
+      "offset": 581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusDisplayAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 5479,
+      "offset": 894,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusDisplayAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4708,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusDisplayAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4828,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusInitializer.swift",
       "kind": "BooleanLiteral",
-      "offset": 422,
+      "offset": 453,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/Nimbus\/OWIAUNimbusInitializer.swift",
       "kind": "StringLiteral",
-      "offset": 2050,
+      "offset": 2143,
       "length": 525,
       "value": "\"OpenWebIAUSDK: NimbusSDK setup is invalid!\nPlease ensure NimbusSDK 'BUILD_LIBRARY_FOR_DISTRIBUTION' is set to 'YES'\nIf you're using Cocoa Pods then you might want to add it in the post-install script:\n\npost_install do |installer|\n  installer.pods_project.targets.each do |target|\n    target.build_configurations.each do |config|\n      if target.name == 'NimbusSDK'\n        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'\n      end\n    end\n  end\nend\n\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/OWIAUOpenWrapDisplayAd.swift",
-      "kind": "IntegerLiteral",
-      "offset": 775,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/KMDependencies\/DisplayAdsSource\/OWIAUOpenWrapDisplayAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3810,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Manager\/ManagerLayers\/OWIAUAnalyticsLayer.swift",
@@ -6340,34 +6155,6 @@
       "offset": 546,
       "length": 19,
       "value": "\"Video_floor_price\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Models\/Configs\/OWIAUResponseDisplayCode.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
-      "length": 10,
-      "value": "\"owAdUnit\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Models\/Configs\/OWIAUResponseDisplayCode.swift",
-      "kind": "StringLiteral",
-      "offset": 639,
-      "length": 10,
-      "value": "\"adUnitId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Models\/Configs\/OWIAUResponseDisplayCode.swift",
-      "kind": "StringLiteral",
-      "offset": 683,
-      "length": 11,
-      "value": "\"profileId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Models\/Configs\/OWIAUResponseDisplayCode.swift",
-      "kind": "StringLiteral",
-      "offset": 730,
-      "length": 13,
-      "value": "\"publisherId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Models\/Configs\/OWIAUSpotConfigurationCampaigns.swift",
@@ -6839,20 +6626,6 @@
       "value": "\"DummyViewKey\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Services\/OWIAUAdPlayerTagsService.swift",
-      "kind": "StringLiteral",
-      "offset": 577,
-      "length": 10,
-      "value": "\"AV_CDIM4\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Services\/OWIAUAdPlayerTagsService.swift",
-      "kind": "Dictionary",
-      "offset": 672,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Services\/OWIAUAppLifeCycle.swift",
       "kind": "StringLiteral",
       "offset": 576,
@@ -6939,7 +6712,7 @@
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/Services\/OWIAUSharedServicesProvider.swift",
       "kind": "StringLiteral",
-      "offset": 1798,
+      "offset": 1890,
       "length": 20,
       "value": "\"Logger initialized\""
     },
@@ -7184,91 +6957,91 @@
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/ViewModels\/OWIAUPlacementViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1654,
+      "offset": 1926,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/ViewModels\/OWIAUPlacementViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 1658,
+      "offset": 1930,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/ViewModels\/OWIAUPlacementViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2188,
+      "offset": 2460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/ViewModels\/OWIAUPlacementViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2260,
+      "offset": 2532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/ViewModels\/OWIAUPlacementViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2332,
+      "offset": 2604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/ViewModels\/OWIAUPlacementViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2739,
       "length": 25,
       "value": "\"OWIAUPlacementViewModel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/Views\/OWIAUPlacementView.swift",
       "kind": "IntegerLiteral",
-      "offset": 802,
+      "offset": 982,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/Views\/OWIAUPlacementView.swift",
       "kind": "Array",
-      "offset": 989,
+      "offset": 1169,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/Views\/OWIAUPlacementView.swift",
       "kind": "Array",
-      "offset": 1051,
+      "offset": 1231,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/Views\/OWIAUPlacementView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1360,
+      "offset": 1540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/Views\/OWIAUPlacementView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1926,
+      "offset": 2202,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/Views\/OWIAUPlacementView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2250,
+      "offset": 2526,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/spotim-iau-sdk\/spotim-iau-sdk\/iOS\/OpenWeb-IAU-Development\/OpenWebIAU-SDK\/UI\/Placement\/Views\/OWIAUPlacementView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2269,
+      "offset": 2545,
       "length": 1,
       "value": "0"
     },

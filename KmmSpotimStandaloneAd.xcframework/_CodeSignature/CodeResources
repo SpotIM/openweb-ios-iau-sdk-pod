@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/KmmSpotimStandaloneAd.framework/KmmSpotimStandaloneAd</key>
 		<data>
-		K0UCdFS3cOI9NrZozGhGpl+O9KQ=
+		IgTlhvsQQSU41rIJYQH5NyFQW04=
 		</data>
 		<key>ios-arm64/KmmSpotimStandaloneAd.framework/Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KmmSpotimStandaloneAd.framework/KmmSpotimStandaloneAd</key>
 		<data>
-		y9NFWdm7JxkDYJ/y5QjzBr215ls=
+		qiR4Gp3QUVktHINDJaDeVgN8QdI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KmmSpotimStandaloneAd.framework/Modules/module.modulemap</key>
 		<data>
@@ -65,11 +65,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			K0UCdFS3cOI9NrZozGhGpl+O9KQ=
+			IgTlhvsQQSU41rIJYQH5NyFQW04=
 			</data>
 			<key>hash2</key>
 			<data>
-			h5JJ5OS1aiti4QAZwT1gwjkLT8dzA4UlyNX7og7xj4I=
+			yDrNyul1k8YPy4AsFVdQ/wKF5EQjbtPUgvuJCxLsLWM=
 			</data>
 		</dict>
 		<key>ios-arm64/KmmSpotimStandaloneAd.framework/Modules/module.modulemap</key>
@@ -109,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y9NFWdm7JxkDYJ/y5QjzBr215ls=
+			qiR4Gp3QUVktHINDJaDeVgN8QdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			FAMNfybD2RbgnKvrJxCpCAtmGASks4iaPtlnPRjEgtQ=
+			AmhG39fIvJ0r7a2epEmJacm4qkaAYKUpPLAwWOC34N0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KmmSpotimStandaloneAd.framework/Modules/module.modulemap</key>
