@@ -28,14 +28,17 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'KmmSpotimStandaloneAd.xcframework', 'OpenWebIAUSDK.xcframework'
 
   # Dependencies
-  s.dependency 'AdPlayerSDK', '~> 1.13.6'
-  s.dependency 'OpenWrapSDK', '3.6.0'
-  s.dependency 'OpenWrapHandlerDFP', '5.0.0'
+  # AdPlayer (Aniview) support has been removed — kept commented out for reference.
+  # s.dependency 'AdPlayerSDK', '~> 1.13.6'
+  # OpenWrap (PubMatic) support has been removed — kept commented out for reference.
+  # s.dependency 'OpenWrapSDK', '3.6.0'
+  # s.dependency 'OpenWrapHandlerDFP', '5.0.0'
   s.dependency 'AppHarbrSDK', '~> 1.14.0'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.0.0'
-  s.dependency 'NimbusSDK', '~> 2.28.2'
+  s.dependency 'NimbusSDK', '~> 2.34.0'
   s.dependency 'NimbusSDK/NimbusKit'
   s.dependency 'NimbusSDK/NimbusRenderStaticKit'
   s.dependency 'NimbusSDK/NimbusGAMKit'
+  s.dependency 'NimbusSDK/NimbusAdMobKit'
   s.dependency 'OpenWebCommon', '~> 1.1.1'
 end
