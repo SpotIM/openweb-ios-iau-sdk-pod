@@ -12,7 +12,7 @@ This library provides an easy integration with OpenWebIAU SDK into a native iOS 
 
 #### Using [CocoaPods](https://cocoapods.org)
 1. Set dependency as follows:
-    `pod 'OpenWebIAU', '2.2.0'`
+    `pod 'OpenWebIAU', '2.3.0'`
 2. Execute `pod install` in Terminal
 3. Open workspace file and run
 
