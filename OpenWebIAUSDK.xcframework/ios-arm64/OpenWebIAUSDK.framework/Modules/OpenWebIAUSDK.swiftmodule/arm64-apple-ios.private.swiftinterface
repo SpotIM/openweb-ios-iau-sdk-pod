@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OpenWebIAUSDK
-import AdPlayerSDK
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OpenWebIAUSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import AppHarbrSDK
 import AppTrackingTransparency
 import Combine
@@ -11,8 +11,6 @@ import GoogleMobileAds
 import KmmSpotimStandaloneAd
 import NimbusRenderStaticKit
 @_exported import OpenWebCommon
-import OpenWrapHandlerDFP
-import OpenWrapSDK
 import SafariServices
 import Swift
 import SwiftUI
@@ -29,13 +27,19 @@ public struct OWIAUAnalyticAdditionalInfo : OpenWebIAUSDK.OWIAUAnalyticAdditiona
 }
 public struct OWIAUSettings : OpenWebCommon.OWIAUSettingsProtocol {
   public var storeURL: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(storeURL: Swift.String? = nil)
+  #endif
 }
 public struct OWIAUSettingsBuilder {
   public var storeURL: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(storeURL: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   public mutating func storeURL(_ storeURL: Swift.String?) -> OpenWebIAUSDK.OWIAUSettingsBuilder
+  #endif
   public func build() -> any OpenWebCommon.OWIAUSettingsProtocol
 }
 public enum OWIAUMpvType {
@@ -53,7 +57,9 @@ public enum OWIAURequestMethod : Swift.String {
   case patch
   case post
   case put
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -86,7 +92,9 @@ public enum OWIAUBIAnalyticEvent : Swift.String {
   case aniviewEngineInitializeError
   case aniviewEngineInitialized
   case aniviewImpressionViewable
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -116,7 +124,9 @@ public protocol OWIAUManagerProtocol {
   var helpers: any OpenWebIAUSDK.OWIAUHelpers { get }
 }
 public protocol OWIAUUI {
+  #if compiler(>=5.3) && $NonescapableTypes
   func ad(postId: OpenWebCommon.OWPostId, settings: any OpenWebCommon.OWIAUAdSettingsProtocol, viewEventCallbacks: OpenWebCommon.OWIAUAdViewEventsCallbacks?, actionsCallbacks: OpenWebCommon.OWIAUAdViewActionsCallbacks?, completion: @escaping OpenWebCommon.OWIAUViewCompletion)
+  #endif
 }
 public typealias OWIAUAnalyticEventCallback = (_ event: OpenWebIAUSDK.OWIAUBIAnalyticEvent, _ additionalInfo: any OpenWebIAUSDK.OWIAUAnalyticAdditionalInfoProtocol, _ postId: OpenWebCommon.OWPostId?) -> Swift.Void
 public typealias OWIAUCustomBIData = [Swift.String : any Swift.Decodable & Swift.Encodable]
